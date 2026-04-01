@@ -555,14 +555,14 @@
 
   <script src="assets/js/main.js"></script>
   <style>
-    .phone-mockup__screen--carousel{padding:0;overflow:hidden;border-radius:inherit;position:relative}
-    .screenshot-carousel{position:relative;width:100%;height:100%}
-    .screenshot-slide{position:absolute;inset:0;opacity:0;transition:opacity .65s ease}
+    .phone-mockup__screen--carousel{padding:0!important;overflow:hidden;border-radius:30px;height:500px}
+    .screenshot-carousel{position:relative;width:100%;height:500px}
+    .screenshot-slide{position:absolute;top:0;left:0;width:100%;height:100%;opacity:0;transition:opacity .65s ease}
     .screenshot-slide--active{opacity:1}
     .screenshot-slide img{width:100%;height:100%;object-fit:cover;display:block}
-    .screenshot-dots{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);display:flex;gap:6px;z-index:10}
-    .screenshot-dot{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.45);cursor:pointer;transition:background .3s}
-    .screenshot-dot--active{background:#fff}
+    .screenshot-dots{position:absolute;bottom:14px;left:50%;transform:translateX(-50%);display:flex;gap:6px;z-index:10}
+    .screenshot-dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.45);cursor:pointer;transition:background .3s;border:1px solid rgba(255,255,255,.3)}
+    .screenshot-dot--active{background:#fff;border-color:#fff}
   </style>
   <script>
     (function(){
