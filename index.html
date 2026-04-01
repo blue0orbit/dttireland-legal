@@ -8,6 +8,9 @@
   <link rel="canonical" href="https://dttireland.com/">
   <meta name="google-site-verification" content="UYPNQwBMiyfAP857XqJhlE1Uk-ZkzDIy4jIjSuAchOE">
 
+  <!-- Search & AI crawler directives -->
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
   <!-- Open Graph -->
   <meta property="og:title" content="DTT Ireland — Irish Driving Theory Test App">
   <meta property="og:description" content="805 RSA questions, mock exams, driving scenarios. Available in 8 languages. Free to download.">
@@ -26,17 +29,98 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-  <!-- Schema.org — SoftwareApplication -->
+  <!-- Schema.org structured data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "DTT Ireland",
-    "description": "Irish Driving Theory Test preparation app with 805 RSA questions, mock exams, and real driving scenarios.",
-    "applicationCategory": "EducationalApplication",
-    "operatingSystem": "Android",
-    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
-    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "1200" }
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://dttireland.com/#app",
+        "name": "DTT Ireland",
+        "alternateName": "DTTIreland",
+        "description": "Free Irish Driving Theory Test app with 805 official RSA questions, full mock exams, 60fps driving scenario simulations, and support for 8 languages including Arabic and Urdu.",
+        "applicationCategory": "EducationalApplication",
+        "applicationSubCategory": "Driving Theory Test",
+        "operatingSystem": "Android 6.0+",
+        "inLanguage": ["en", "ga", "pl", "pt", "uk", "ar", "ur", "ro"],
+        "url": "https://dttireland.com/",
+        "downloadUrl": "https://play.google.com/apps/testing/com.app.dttireland",
+        "featureList": [
+          "805 official RSA questions",
+          "Full mock exams (40 questions, 45 minutes)",
+          "60fps physics driving scenario simulation",
+          "Spaced repetition smart study mode",
+          "8 languages including Arabic and Urdu",
+          "Achievements and progress tracking"
+        ],
+        "screenshot": "https://dttireland.com/assets/img/og-preview.png",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "description": "Free to download. Optional one-time €1.99 Premium to remove ads. No subscription."
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "reviewCount": "1200",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://dttireland.com/#org"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://dttireland.com/#org",
+        "name": "DTT Ireland",
+        "url": "https://dttireland.com/",
+        "description": "Independent Irish developer building the DTT Ireland driving theory test app.",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "blue0orbit@gmail.com",
+          "contactType": "Customer Support"
+        },
+        "sameAs": [
+          "https://play.google.com/apps/testing/com.app.dttireland",
+          "https://appgallery.huawei.com/app/C117270185"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dttireland.com/#website",
+        "url": "https://dttireland.com/",
+        "name": "DTT Ireland",
+        "description": "Pass your Irish driving theory test with DTT Ireland — 805 RSA questions, mock exams and driving scenarios.",
+        "publisher": {
+          "@id": "https://dttireland.com/#org"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://dttireland.com/faq.html?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://dttireland.com/#webpage",
+        "url": "https://dttireland.com/",
+        "name": "DTT Ireland — Pass Your Irish Driving Theory Test | Free App",
+        "description": "Prepare for the Irish driving theory test with 805 real RSA questions, full mock exams, and unique driving scenarios. Available in 8 languages. Free to download.",
+        "isPartOf": {"@id": "https://dttireland.com/#website"},
+        "about": {"@id": "https://dttireland.com/#app"},
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [".hero__headline", ".hero__description", ".section-heading"]
+        }
+      }
+    ]
   }
   </script>
 
