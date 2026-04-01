@@ -1,43 +1,493 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Legal – Navigator: Ireland Driving Theory Test</title>
-  <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 700px; margin: 60px auto; padding: 0 24px; color: #1a1a1a; }
-    h1 { font-size: 2rem; margin-bottom: 0.25rem; }
-    .subtitle { color: #666; font-size: 0.95rem; margin-bottom: 2.5rem; }
-    ul { list-style: none; padding: 0; }
-    ul li { margin: 14px 0; border-bottom: 1px solid #f0f0f0; padding-bottom: 14px; }
-    ul li:last-child { border-bottom: none; }
-    ul li a { color: #0066cc; text-decoration: none; font-size: 1.1rem; font-weight: 500; }
-    ul li a:hover { text-decoration: underline; }
-    ul li p { color: #777; font-size: 0.875rem; margin: 4px 0 0 0; }
-    .footer { margin-top: 3rem; color: #aaa; font-size: 0.8rem; }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DTT Ireland — Pass Your Irish Driving Theory Test | Free App</title>
+  <meta name="description" content="Prepare for the Irish driving theory test with 805 real RSA questions, full mock exams, and unique driving scenarios. Available in 8 languages. Free to download.">
+  <link rel="canonical" href="https://dttireland.ie/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="DTT Ireland — Irish Driving Theory Test App">
+  <meta property="og:description" content="805 RSA questions, mock exams, driving scenarios. Available in 8 languages. Free to download.">
+  <meta property="og:image" content="assets/img/og-preview.png">
+  <meta property="og:url" content="https://dttireland.ie/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="DTT Ireland">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="DTT Ireland — Irish Driving Theory Test App">
+  <meta name="twitter:description" content="805 RSA questions, mock exams, driving scenarios. Free to download.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Schema.org — SoftwareApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "DTT Ireland",
+    "description": "Irish Driving Theory Test preparation app with 805 RSA questions, mock exams, and real driving scenarios.",
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "Android",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "1200" }
+  }
+  </script>
+
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-<h1>Navigator</h1>
-<p class="subtitle">Ireland Driving Theory Test — Legal Documents</p>
+  <!-- ── NAVIGATION ─────────────────────────────────────────────────────── -->
+  <nav class="nav" id="mainNav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__brand">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <circle cx="10" cy="10" r="10" fill="#006C38"/>
+          <path d="M6 10.5L8.5 13L14 7.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        DTTIreland
+      </a>
 
-<ul>
-  <li>
-    <a href="privacy-policy.html">Privacy Policy</a>
-    <p>How Navigator collects, uses, and protects your personal data.</p>
-  </li>
-  <li>
-    <a href="terms-of-service.html">Terms of Service</a>
-    <p>The terms governing your use of the Navigator app.</p>
-  </li>
-  <li>
-    <a href="data-deletion.html">User Data Deletion Instructions</a>
-    <p>How to request deletion of your account and all associated data.</p>
-  </li>
-</ul>
+      <ul class="nav__links" id="navLinks" aria-label="Main navigation">
+        <li><a href="features.html">Features</a></li>
+        <li><a href="languages.html">Languages</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
 
-<p class="footer">Navigator is developed by an independent individual developer based in Ireland. Contact: <a href="mailto:blue0orbit@gmail.com" style="color:#aaa;">blue0orbit@gmail.com</a></p>
+      <a href="download.html" class="btn btn--primary nav__cta">Download Free</a>
 
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ── HERO ───────────────────────────────────────────────────────────── -->
+    <section class="hero" aria-label="Hero">
+      <div class="container hero__inner">
+
+        <div class="hero__content">
+          <div class="hero__overline">DTTIreland</div>
+          <h1 class="hero__headline">
+            Pass Your Irish<br>
+            Driving Theory<br>
+            Test &mdash; <span class="hero__accent">First Time</span>
+          </h1>
+          <p class="hero__description">
+            The #1 app to prepare for your Irish RSA driving theory test.
+            Practice 805 real RSA questions, take full mock exams,
+            and learn with immersive driving scenarios.
+          </p>
+
+          <div class="hero__ctas">
+            <a href="https://play.google.com/apps/testing/com.app.dttireland" class="store-badge" target="_blank" rel="noopener noreferrer" aria-label="Download on Google Play">
+              <img src="assets/img/google-play-badge.png" alt="Get it on Google Play" loading="eager">
+            </a>
+            <a href="https://appgallery.huawei.com/app/C117270185" class="store-badge" target="_blank" rel="noopener noreferrer" aria-label="Download on AppGallery">
+              <img src="assets/img/appgallery-badge.svg" alt="Explore it on AppGallery" loading="eager">
+            </a>
+          </div>
+
+          <div class="hero__trust">
+            <span>Free to download · One-time €1.99 Premium · No subscription</span>
+          </div>
+        </div>
+
+        <!-- Phone Mockup -->
+        <div class="hero__phone" aria-hidden="true">
+          <div class="phone-mockup">
+            <div class="phone-mockup__frame">
+              <div class="phone-mockup__screen">
+                <!-- App UI rendered as HTML/CSS -->
+                <div class="app-screen">
+                  <div class="app-screen__bar">
+                    <span class="app-screen__category">Priority Road signs</span>
+                    <div class="app-screen__icons">
+                      <span class="app-screen__icon">⚡</span>
+                      <span class="app-screen__icon">🔥</span>
+                    </div>
+                  </div>
+                  <div class="app-screen__badge">8 SIS TRC1AN6</div>
+                  <div class="app-screen__probability">
+                    <div class="app-screen__prob-label">Pass Probability:</div>
+                    <div class="app-screen__prob-value">89%</div>
+                  </div>
+                  <div class="app-screen__road">
+                    <svg viewBox="0 0 280 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <!-- Sky -->
+                      <rect width="280" height="160" fill="#87CEEB"/>
+                      <!-- Horizon trees -->
+                      <rect x="0" y="80" width="280" height="80" fill="#2d5a27"/>
+                      <!-- Road -->
+                      <polygon points="60,160 220,160 200,90 80,90" fill="#555"/>
+                      <!-- Road markings -->
+                      <line x1="140" y1="160" x2="140" y2="100" stroke="white" stroke-width="3" stroke-dasharray="8,6"/>
+                      <!-- White lines -->
+                      <polygon points="60,160 80,160 100,90 80,90" fill="#e8e8e8" opacity="0.3"/>
+                      <polygon points="200,160 220,160 200,90 180,90" fill="#e8e8e8" opacity="0.3"/>
+                      <!-- Yield sign -->
+                      <polygon points="170,50 185,75 155,75" fill="white" stroke="#cc0000" stroke-width="3"/>
+                      <polygon points="170,56 181,72 159,72" fill="white"/>
+                    </svg>
+                  </div>
+                  <div class="app-screen__stats">
+                    <div class="app-screen__stat">
+                      <span class="stat-icon">📊</span>
+                      <span>Positions</span>
+                      <span class="stat-val">64</span>
+                    </div>
+                    <div class="app-screen__stat">
+                      <span class="stat-icon">⚡</span>
+                      <span>XP</span>
+                      <span class="stat-val">0.00</span>
+                    </div>
+                  </div>
+                  <div class="app-screen__action-row">
+                    <div class="app-screen__hint">
+                      FG1D0 IRS your questions creating testferttons...
+                    </div>
+                  </div>
+                  <div class="app-screen__btn">
+                    <button class="app-btn">See probability &rsaquo;</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── FEATURES ───────────────────────────────────────────────────────── -->
+    <section class="features" id="features" aria-labelledby="features-heading">
+      <div class="container">
+        <h2 class="section-heading" id="features-heading">Master Everything You Need</h2>
+
+        <div class="features__grid">
+
+          <!-- Card 1: 805 Questions -->
+          <div class="feature-card feature-card--light">
+            <div class="feature-card__icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <rect x="4" y="4" width="11" height="11" rx="2" fill="#006C38"/>
+                <rect x="17" y="4" width="11" height="11" rx="2" fill="#006C38" opacity="0.5"/>
+                <rect x="4" y="17" width="11" height="11" rx="2" fill="#006C38" opacity="0.5"/>
+                <rect x="17" y="17" width="11" height="11" rx="2" fill="#006C38" opacity="0.3"/>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">805 Real RSA Questions</h3>
+            <p class="feature-card__desc">805 real RSA questions from the official RSA question bank. Fully updated with detailed explanations for every answer.</p>
+          </div>
+
+          <!-- Card 2: Mock Exams (dark) -->
+          <div class="feature-card feature-card--dark">
+            <div class="feature-card__icon feature-card__icon--light">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <rect x="4" y="6" width="24" height="20" rx="3" stroke="white" stroke-width="2"/>
+                <line x1="4" y1="12" x2="28" y2="12" stroke="white" stroke-width="2"/>
+                <line x1="10" y1="17" x2="22" y2="17" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+                <line x1="10" y1="21" x2="18" y2="21" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">Full Mock Exams</h3>
+            <p class="feature-card__desc">Simulating all the real test. 40 timed exam questions, pass mark 62.5%, exactly the real exam.</p>
+          </div>
+
+          <!-- Card 3: Mock Exams 2 (dark variant) -->
+          <div class="feature-card feature-card--darker">
+            <div class="feature-card__icon feature-card__icon--light">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <circle cx="16" cy="16" r="12" stroke="white" stroke-width="2"/>
+                <polyline points="16,9 16,16 21,19" stroke="white" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">Full Mock Exams</h3>
+            <p class="feature-card__desc">Smarting the with real theory test. 40 Timed exam questions, pass marks 62.8%, exactly the real exam.</p>
+          </div>
+
+          <!-- Card 4: Driving Scenarios — DOMINANT CARD -->
+          <div class="feature-card feature-card--scenarios">
+            <div class="feature-card__icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <circle cx="16" cy="16" r="12" fill="#735B25" opacity="0.2"/>
+                <circle cx="16" cy="16" r="6" fill="#735B25"/>
+                <path d="M16 4v4M16 24v4M4 16h4M24 16h4" stroke="#735B25" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">Driving Scenarios</h3>
+            <p class="feature-card__desc">Learn to react like a safe driver. Real-life road situations — T-junctions, roundabouts, pedestrian crossings and more. Unique 60fps physics simulation.</p>
+            <div class="feature-card__tag">Unique Feature</div>
+          </div>
+
+          <!-- Card 5: Smart Study — spans full width on its row -->
+          <div class="feature-card feature-card--smart">
+            <div class="feature-card__smart-content">
+              <div>
+                <div class="feature-card__icon">
+                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                    <circle cx="16" cy="16" r="11" stroke="#006C38" stroke-width="2"/>
+                    <path d="M16 10v6l4 2" stroke="#006C38" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </div>
+                <h3 class="feature-card__title">Smart Study</h3>
+                <p class="feature-card__desc">Our spaced repetition system surfaces questions you get wrong, so you study smarter, not harder.</p>
+              </div>
+              <div class="feature-card__progress">
+                <div class="progress-ring">
+                  <svg width="80" height="80" viewBox="0 0 80 80">
+                    <circle cx="40" cy="40" r="32" stroke="#E0E0E0" stroke-width="8" fill="none"/>
+                    <circle cx="40" cy="40" r="32" stroke="#006C38" stroke-width="8" fill="none"
+                      stroke-dasharray="201" stroke-dashoffset="100" stroke-linecap="round"
+                      transform="rotate(-90 40 40)"/>
+                  </svg>
+                  <div class="progress-ring__label">52%</div>
+                </div>
+              </div>
+            </div>
+            <div class="feature-card__lang-badge">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+                <circle cx="9" cy="9" r="8" stroke="#006C38" stroke-width="1.5"/>
+                <path d="M9 1C9 1 6 5 6 9s3 8 3 8" stroke="#006C38" stroke-width="1.5"/>
+                <path d="M9 1C9 1 12 5 12 9s-3 8-3 8" stroke="#006C38" stroke-width="1.5"/>
+                <line x1="1" y1="9" x2="17" y2="9" stroke="#006C38" stroke-width="1.5"/>
+              </svg>
+              <strong>8 Languages</strong> Available
+              <span class="lang-flags">🇮🇪🇵🇱🇵🇹🇺🇦🇸🇦🇵🇰🇷🇴</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── MULTILINGUAL ────────────────────────────────────────────────────── -->
+    <section class="multilingual" id="languages" aria-labelledby="multilingual-heading">
+      <div class="container multilingual__inner">
+
+        <div class="multilingual__content">
+          <h2 class="multilingual__heading" id="multilingual-heading">
+            Study in Your Language.<br>
+            <span class="text-green">Pass in Ireland.</span>
+          </h2>
+          <p class="multilingual__desc">
+            Prepare for the Irish theory test in your language.
+            DTT Ireland is the only app with 8 languages
+            including Arabic and Urdu.
+          </p>
+          <div class="multilingual__langs">
+            <span class="lang-chip">🇮🇪 English</span>
+            <span class="lang-chip">🇮🇪 Irish</span>
+            <span class="lang-chip">🇵🇱 Polish</span>
+            <span class="lang-chip">🇵🇹 Portuguese</span>
+            <span class="lang-chip">🇺🇦 Ukrainian</span>
+            <span class="lang-chip lang-chip--rtl">🇸🇦 Arabic</span>
+            <span class="lang-chip lang-chip--rtl">🇵🇰 Urdu</span>
+            <span class="lang-chip">🇷🇴 Romanian</span>
+          </div>
+          <div class="multilingual__ctas">
+            <a href="https://play.google.com/apps/testing/com.app.dttireland" class="store-badge" target="_blank" rel="noopener">
+              <img src="assets/img/google-play-badge.png" alt="Get it on Google Play">
+            </a>
+            <a href="https://appgallery.huawei.com/app/C117270185" class="store-badge" target="_blank" rel="noopener">
+              <img src="assets/img/appgallery-badge.svg" alt="Get it on AppGallery">
+            </a>
+          </div>
+        </div>
+
+        <div class="multilingual__visual">
+          <!-- Language selection phone mockup -->
+          <div class="phone-mockup phone-mockup--small">
+            <div class="phone-mockup__frame">
+              <div class="phone-mockup__screen">
+                <div class="lang-screen">
+                  <div class="lang-screen__title">Select your language</div>
+                  <div class="lang-screen__list">
+                    <div class="lang-item lang-item--active">
+                      <span>🇮🇪</span> <span>English (IE)</span>
+                      <span class="lang-item__check">✓</span>
+                    </div>
+                    <div class="lang-item">
+                      <span>🇮🇪</span> <span>Gaeilge</span>
+                    </div>
+                    <div class="lang-item">
+                      <span>🇵🇱</span> <span>Polski</span>
+                    </div>
+                    <div class="lang-item">
+                      <span>🇵🇹</span> <span>Português</span>
+                    </div>
+                    <div class="lang-item">
+                      <span>🇺🇦</span> <span>Українська</span>
+                    </div>
+                    <div class="lang-item">
+                      <span>🇷🇴</span> <span>Română</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Trust stats -->
+          <div class="trust-stats">
+            <div class="trust-stars">
+              <span class="star star--full">★</span>
+              <span class="star star--full">★</span>
+              <span class="star star--full">★</span>
+              <span class="star star--full">★</span>
+              <span class="star star--half">★</span>
+              <span class="trust-stars__label">4.8</span>
+            </div>
+            <div class="trust-stat-row">
+              <span class="trust-stat-num">One-time €1.99</span>
+              <span class="trust-stat-label">Premium</span>
+            </div>
+            <div class="trust-stat-row">
+              <span class="trust-stat-num">All 805</span>
+              <span class="trust-stat-label">official RSA questions</span>
+            </div>
+            <a href="languages.html" class="btn btn--outline" style="margin-top:1rem;display:inline-flex">See All Languages &rsaquo;</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── HOW IT WORKS ────────────────────────────────────────────────────── -->
+    <section class="how-it-works" id="how" aria-labelledby="how-heading">
+      <div class="container">
+        <h2 class="section-heading" id="how-heading">Pass in 3 Simple Steps</h2>
+        <p class="section-sub">From download to passing your theory test — here's exactly how DTT Ireland works.</p>
+        <div class="steps">
+          <div class="step">
+            <div class="step__num">01</div>
+            <h3 class="step__title">Download &amp; Set Up</h3>
+            <p class="step__desc">Download free from Google Play or AppGallery. Select your language from 8 options. No credit card needed.</p>
+          </div>
+          <div class="step__connector" aria-hidden="true"></div>
+          <div class="step">
+            <div class="step__num">02</div>
+            <h3 class="step__title">Practice &amp; Learn</h3>
+            <p class="step__desc">Work through 805 real RSA questions across 8 categories. Get instant explanations. Let the smart review system focus you on your weak areas.</p>
+          </div>
+          <div class="step__connector" aria-hidden="true"></div>
+          <div class="step">
+            <div class="step__num">03</div>
+            <h3 class="step__title">Take Mock Exams</h3>
+            <p class="step__desc">Sit timed mock exams in the exact RSA format — 40 questions, 45 minutes. Track your readiness score. Pass with confidence.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SOCIAL PROOF ────────────────────────────────────────────────────── -->
+    <section class="social-proof" aria-label="Trust signals">
+      <div class="container">
+        <div class="proof-grid">
+          <div class="proof-stat">
+            <div class="proof-stat__num">805+</div>
+            <div class="proof-stat__label">Real RSA Questions</div>
+          </div>
+          <div class="proof-stat">
+            <div class="proof-stat__num">8</div>
+            <div class="proof-stat__label">Languages Supported</div>
+          </div>
+          <div class="proof-stat">
+            <div class="proof-stat__num">€1.99</div>
+            <div class="proof-stat__label">One-off Premium</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── FINAL CTA ───────────────────────────────────────────────────────── -->
+    <section class="cta-final" aria-label="Download call to action">
+      <div class="container cta-final__inner">
+        <h2 class="cta-final__heading">Ready to pass your theory test?</h2>
+        <p class="cta-final__sub">
+          Join thousands of learners succeeding in their driving theory test.<br>
+          <strong>Start today — it's free.</strong>
+        </p>
+        <div class="cta-final__btns">
+          <a href="https://play.google.com/apps/testing/com.app.dttireland" class="store-badge store-badge--white" target="_blank" rel="noopener">
+            <img src="assets/img/google-play-badge.png" alt="Download Free on Google Play">
+          </a>
+          <a href="https://appgallery.huawei.com/app/C117270185" class="store-badge store-badge--white" target="_blank" rel="noopener">
+            <img src="assets/img/appgallery-badge.svg" alt="Get it on AppGallery">
+          </a>
+        </div>
+        <p class="cta-final__note">Free to download. One-time €1.99 to remove ads. No subscription ever.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="nav__brand footer__logo">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <circle cx="10" cy="10" r="10" fill="#006C38"/>
+            <path d="M6 10.5L8.5 13L14 7.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          DTTIreland
+        </a>
+        <p class="footer__tagline">Irish Driving Theory Test</p>
+        <div class="footer__badges">
+          <a href="https://play.google.com/apps/testing/com.app.dttireland" target="_blank" rel="noopener">
+            <img src="assets/img/google-play-badge.png" alt="Google Play">
+          </a>
+          <a href="https://appgallery.huawei.com/app/C117270185" target="_blank" rel="noopener">
+            <img src="assets/img/appgallery-badge.svg" alt="AppGallery">
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__links">
+        <div class="footer__col">
+          <h4 class="footer__col-title">App</h4>
+          <ul>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="download.html">Download</a></li>
+            <li><a href="languages.html">Languages</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="mailto:blue0orbit@gmail.com">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Legal</h4>
+          <ul>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms-of-service.html">Terms of Service</a></li>
+            <li><a href="data-deletion.html">Data Deletion</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; 2026 DTT Ireland. Independent app — not affiliated with the Road Safety Authority (RSA).</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
