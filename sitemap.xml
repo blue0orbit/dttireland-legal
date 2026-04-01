@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://dttireland.ie/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://dttireland.ie/features.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://dttireland.ie/languages.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://dttireland.ie/download.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://dttireland.ie/faq.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://dttireland.ie/about.html</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://dttireland.ie/privacy-policy.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://dttireland.ie/terms-of-service.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://dttireland.ie/data-deletion.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://dttireland.com/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://dttireland.com/features.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://dttireland.com/languages.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://dttireland.com/download.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://dttireland.com/faq.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://dttireland.com/about.html</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dttireland.com/privacy-policy.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://dttireland.com/terms-of-service.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://dttireland.com/data-deletion.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
 </urlset>
