@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="How spaced repetition helps Irish learner drivers memorise 805 theory test questions effectively. The science, a 2-week study plan, and how DTT Ireland's Smart Study mode does it automatically.">
+  <meta name="keywords" content="how to study for irish theory test, spaced repetition driving test ireland, best way to memorise rsa questions, smart study theory test ireland">
+  <meta property="og:title" content="Spaced Repetition: The Science That Helps You Remember All 805 RSA Questions">
+  <meta property="og:description" content="How spaced repetition helps Irish learner drivers memorise 805 theory test questions effectively. The science, a 2-week study plan, and how DTT Ireland's Smart Study mode does it automatically.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://dttireland.com/blog/spaced-repetition-study-guide-ireland.html">
+  <meta property="article:published_time" content="2025-12-10T00:00:00Z">
+  <meta property="article:author" content="DTT Ireland">
+  <link rel="canonical" href="https://dttireland.com/blog/spaced-repetition-study-guide-ireland.html">
+  <title>Spaced Repetition: The Science That Helps You Remember All 805 RSA Questions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #006C38;
+      --primary-dark: #005229;
+      --primary-light: #EBF5F0;
+      --text: #1a1a1a;
+      --text-light: #555F57;
+      --border: #E0E3E1;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', sans-serif;
+      color: var(--text);
+      line-height: 1.6;
+      background: #fff;
+    }
+    .container { max-width: 1180px; margin: 0 auto; padding: 0 2rem; }
+
+    /* Navigation */
+    .nav {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    .nav__inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 70px;
+    }
+    .nav__brand {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-weight: 700;
+      text-decoration: none;
+      color: var(--text);
+      font-size: 0.95rem;
+    }
+    .nav__links {
+      display: flex;
+      list-style: none;
+      gap: 2rem;
+      align-items: center;
+    }
+    .nav__links a {
+      text-decoration: none;
+      color: var(--text-light);
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    .nav__links a:hover { color: var(--primary); }
+    .btn { display: inline-block; padding: 0.65rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 0.85rem; transition: all 0.2s; border: none; cursor: pointer; }
+    .btn--primary { background: var(--primary); color: #fff; }
+    .btn--primary:hover { background: var(--primary-dark); }
+    .nav__cta { margin-left: auto; }
+    .nav__toggle { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; }
+    .nav__toggle span { width: 24px; height: 2px; background: var(--text); border-radius: 2px; transition: all 0.3s; }
+
+    /* Hero Section */
+    .article-hero {
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(135deg, #6c3483 0%, #8e44ad 100%);
+      color: #fff;
+      padding: 0;
+    }
+    .article-hero__img {
+      width: 100%;
+      height: 480px;
+      object-fit: cover;
+      display: block;
+      opacity: 0.4;
+    }
+    .article-hero__overlay {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 3rem 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.5) 60%, transparent 100%);
+    }
+    .article-hero__inner {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+    .breadcrumb {
+      font-size: 0.8rem;
+      opacity: 0.7;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .breadcrumb a { color: #fff; text-decoration: none; }
+    .breadcrumb a:hover { opacity: 0.8; }
+    .article-hero__cat {
+      display: inline-block;
+      background: rgba(255,255,255,0.15);
+      border: 1px solid rgba(255,255,255,0.25);
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 0.3rem 0.8rem;
+      border-radius: 100px;
+      margin-bottom: 1rem;
+    }
+    .article-hero__title {
+      font-size: clamp(1.6rem, 4vw, 2.75rem);
+      font-weight: 900;
+      line-height: 1.15;
+      margin-bottom: 1rem;
+      letter-spacing: -0.03em;
+    }
+    .article-hero__meta {
+      display: flex;
+      gap: 1.25rem;
+      flex-wrap: wrap;
+      font-size: 0.85rem;
+      opacity: 0.8;
+    }
+
+    /* Article Layout */
+    .article-layout {
+      display: grid;
+      grid-template-columns: 1fr 300px;
+      gap: 3rem;
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 3rem 2rem;
+    }
+    .article-content h2 {
+      font-size: 1.5rem;
+      font-weight: 800;
+      margin: 2.5rem 0 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--primary-light);
+    }
+    .article-content h3 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin: 1.75rem 0 0.75rem;
+    }
+    .article-content p {
+      margin-bottom: 1.1rem;
+      line-height: 1.75;
+    }
+    .article-content ul, .article-content ol {
+      margin: 0.75rem 0 1.25rem 1.5rem;
+    }
+    .article-content li {
+      margin-bottom: 0.5rem;
+      line-height: 1.65;
+    }
+    .info-box {
+      background: var(--primary-light);
+      border-left: 4px solid var(--primary);
+      border-radius: 0 12px 12px 0;
+      padding: 1.25rem 1.5rem;
+      margin: 1.5rem 0;
+    }
+    .info-box strong {
+      color: var(--primary-dark);
+    }
+    .chart-wrap {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 1.5rem;
+      margin: 2rem 0;
+    }
+    .chart-wrap h4 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    /* Forgetting Curve Visualization */
+    .forgetting-curve {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2rem;
+      margin: 2rem 0;
+      position: relative;
+      height: 300px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-start;
+      gap: 1rem;
+      overflow-x: auto;
+    }
+    .forgetting-curve svg {
+      width: 100%;
+      height: 100%;
+      min-width: 600px;
+    }
+
+    /* Study Methods Comparison */
+    .study-methods {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    .study-method {
+      background: #f9f9f9;
+      border-radius: 12px;
+      padding: 1.5rem;
+      border: 1px solid var(--border);
+      text-align: center;
+    }
+    .study-method__label {
+      font-weight: 700;
+      font-size: 0.9rem;
+      margin-bottom: 0.75rem;
+      color: var(--text);
+    }
+    .study-method__percent {
+      font-size: 2rem;
+      font-weight: 900;
+      margin: 1rem 0;
+      color: var(--primary);
+    }
+    .study-method__desc {
+      font-size: 0.8rem;
+      color: var(--text-light);
+      line-height: 1.5;
+    }
+
+    /* Study Plan Table */
+    .study-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 2rem 0;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .study-table th {
+      background: var(--primary-light);
+      padding: 1rem;
+      text-align: left;
+      font-weight: 700;
+      border-bottom: 2px solid var(--primary);
+      font-size: 0.9rem;
+    }
+    .study-table td {
+      padding: 1rem;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.9rem;
+    }
+    .study-table tr:last-child td {
+      border-bottom: none;
+    }
+    .study-table tr:nth-child(even) {
+      background: #fafafa;
+    }
+    .study-day {
+      font-weight: 700;
+      color: var(--primary);
+      width: 80px;
+    }
+    .study-focus {
+      color: var(--text-light);
+    }
+
+    /* Tips Section */
+    .tips-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    .tip-card {
+      background: linear-gradient(135deg, var(--primary-light), #fff);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      border-left: 4px solid var(--primary);
+    }
+    .tip-card h4 {
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      color: var(--primary-dark);
+    }
+    .tip-card p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    /* Sidebar */
+    .sidebar-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 1.5rem;
+      margin-bottom: 1.25rem;
+      position: sticky;
+      top: 90px;
+    }
+    .sidebar-card h4 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    .toc-list {
+      list-style: none;
+      padding: 0;
+    }
+    .toc-list li {
+      padding: 0.4rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.875rem;
+    }
+    .toc-list li:last-child { border: none; }
+    .toc-list a {
+      color: var(--text-light);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .toc-list a:hover { color: var(--primary); }
+    .app-cta-sidebar {
+      background: linear-gradient(135deg, var(--primary), #004d28);
+      color: #fff;
+      text-align: center;
+      border-radius: 20px;
+      padding: 1.5rem;
+      margin-top: 2rem;
+    }
+    .app-cta-sidebar h4 { color: #fff; margin-bottom: 0.75rem; }
+    .app-cta-sidebar p {
+      color: #fff;
+      font-size: 0.85rem;
+      opacity: 0.85;
+      margin-bottom: 1.25rem;
+    }
+    .app-cta-sidebar .btn {
+      width: 100%;
+      text-align: center;
+    }
+
+    /* FAQ */
+    .faq-section {
+      margin-top: 3rem;
+      padding: 2rem 0;
+      border-top: 2px solid var(--primary-light);
+    }
+    .faq-item {
+      margin-bottom: 1.5rem;
+    }
+    .faq-item__q {
+      font-weight: 700;
+      font-size: 1rem;
+      margin-bottom: 0.75rem;
+      color: var(--text);
+    }
+    .faq-item__a {
+      color: var(--text-light);
+      line-height: 1.75;
+    }
+
+    /* Footer CTA */
+    .article-footer-cta {
+      background: var(--primary-light);
+      border-top: 1px solid rgba(0,108,56,0.15);
+      padding: 4rem 0;
+      text-align: center;
+      margin-top: 4rem;
+    }
+    .article-footer-cta h3 {
+      font-size: 1.75rem;
+      margin-bottom: 0.75rem;
+      color: var(--primary-dark);
+    }
+    .article-footer-cta p {
+      color: var(--text-light);
+      margin-bottom: 2rem;
+      font-size: 1.05rem;
+    }
+
+    /* Related Articles */
+    .related-section {
+      margin-top: 4rem;
+      padding-top: 3rem;
+      border-top: 2px solid var(--primary-light);
+    }
+    .related-section h2 {
+      font-size: 1.5rem;
+      font-weight: 800;
+      margin-bottom: 2rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--primary-light);
+    }
+    .related-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .related-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.3s;
+    }
+    .related-card:hover {
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+      border-color: var(--primary);
+    }
+    .related-card__cat {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+    .related-card__title {
+      font-size: 0.9rem;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+
+    /* Footer */
+    .footer {
+      background: #1a1a1a;
+      color: #fff;
+      margin-top: 0;
+      padding-top: 3rem;
+    }
+    .footer__inner {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 3rem;
+      margin-bottom: 2rem;
+    }
+    .footer__brand a {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    .footer__tagline {
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.6);
+      margin-bottom: 1.5rem;
+    }
+    .footer__badges {
+      display: flex;
+      gap: 0.75rem;
+    }
+    .footer__badges img {
+      height: 40px;
+    }
+    .footer__links {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+    .footer__col-title {
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      font-size: 0.9rem;
+    }
+    .footer__col ul {
+      list-style: none;
+    }
+    .footer__col li {
+      margin-bottom: 0.5rem;
+    }
+    .footer__col a {
+      color: rgba(255,255,255,0.6);
+      text-decoration: none;
+      font-size: 0.85rem;
+      transition: color 0.2s;
+    }
+    .footer__col a:hover { color: #fff; }
+    .footer__bottom {
+      border-top: 1px solid rgba(255,255,255,0.1);
+      padding: 1.5rem 0;
+      text-align: center;
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.4);
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .article-layout { grid-template-columns: 1fr; }
+      .sidebar-card { position: static; }
+      .related-grid { grid-template-columns: 1fr 1fr; }
+      .nav__links { gap: 1rem; font-size: 0.85rem; }
+      .footer__inner { grid-template-columns: 1fr; }
+      .footer__links { grid-template-columns: repeat(2, 1fr); }
+      .study-methods { grid-template-columns: repeat(2, 1fr); }
+      .tips-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 600px) {
+      .related-grid { grid-template-columns: 1fr; }
+      .nav__toggle { display: flex; }
+      .nav__links { display: none; }
+      .nav__cta { display: none; }
+      .article-hero__title { font-size: 1.4rem; }
+      .article-layout { padding: 2rem 1rem; }
+      .article-content h2 { font-size: 1.3rem; }
+      .footer__links { grid-template-columns: 1fr; }
+      .study-methods { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav" id="mainNav">
+    <div class="container nav__inner">
+      <a href="../index.html" class="nav__brand"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="10" fill="#006C38"/><path d="M6 10.5L8.5 13L14 7.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>DTTIreland</a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="../features.html">Features</a></li>
+        <li><a href="../languages.html">Languages</a></li>
+        <li><a href="../faq.html">FAQ</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../webapp.html">Web App ✦</a></li>
+        <li><a href="../blog.html" style="color:var(--primary)">Blog</a></li>
+      </ul>
+      <a href="../download.html" class="btn btn--primary nav__cta">Download Free</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="article-hero">
+    <img src="../assets/img/blog/spaced-repetition-study-guide-ireland-hero.jpg" alt="Spaced Repetition Study Guide" class="article-hero__img" onerror="this.style.display='none'">
+    <div class="article-hero__overlay">
+      <div class="article-hero__inner">
+        <div class="breadcrumb">
+          <a href="../blog.html">Blog</a>
+          <span>/</span>
+          <span>Study Science</span>
+        </div>
+        <span class="article-hero__cat">🧠 Study Science</span>
+        <h1 class="article-hero__title">Spaced Repetition: The Science That Helps You Remember All 805 RSA Questions</h1>
+        <div class="article-hero__meta">
+          <span>December 2025</span>
+          <span>8 min read</span>
+          <span>By DTT Ireland</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Article Layout -->
+  <div class="article-layout">
+    <article class="article-content">
+      <!-- Introduction -->
+      <p>Cramming the night before doesn't work. You'll memorise some questions, but forget most of them within 24 hours. Yet nearly half of Irish learners try it anyway.</p>
+
+      <p>The problem isn't your memory—it's your method. Science has known for 140 years how to memorise large amounts of information. It's called spaced repetition, and it works. Studies show that learners who use spaced repetition retain 90% of information 30 days later, versus just 5% for those who never study and 25% for those who cram once.</p>
+
+      <p>This guide explains the science behind spaced repetition, shows you a 2-week study plan, and reveals how DTT Ireland's Smart Study mode does it automatically.</p>
+
+      <h2>The Forgetting Curve: Why Your Brain Forgets</h2>
+
+      <p>In 1885, German psychologist Hermann Ebbinghaus conducted a landmark experiment. He memorised nonsense syllables, then tested how long he remembered them. The results were shocking.</p>
+
+      <p>Without review, he forgot roughly 50% within 24 hours. Within a week, only 20% remained. Within 30 days, less than 5% survived. This decline followed a predictable curve—what Ebbinghaus called the "forgetting curve."</p>
+
+      <!-- Forgetting Curve Visualization -->
+      <div class="chart-wrap">
+        <h4>The Forgetting Curve (Ebbinghaus, 1885)</h4>
+        <svg viewBox="0 0 700 400" style="width: 100%; height: 300px; margin-top: 1rem;">
+          <!-- Grid -->
+          <line x1="60" y1="50" x2="60" y2="350" stroke="#ccc" stroke-width="1"/>
+          <line x1="60" y1="350" x2="680" y2="350" stroke="#ccc" stroke-width="1"/>
+
+          <!-- Grid lines -->
+          <line x1="50" y1="100" x2="680" y2="100" stroke="#e8e8e8" stroke-width="1" stroke-dasharray="2,2"/>
+          <line x1="50" y1="150" x2="680" y2="150" stroke="#e8e8e8" stroke-width="1" stroke-dasharray="2,2"/>
+          <line x1="50" y1="200" x2="680" y2="200" stroke="#e8e8e8" stroke-width="1" stroke-dasharray="2,2"/>
+          <line x1="50" y1="250" x2="680" y2="250" stroke="#e8e8e8" stroke-width="1" stroke-dasharray="2,2"/>
+          <line x1="50" y1="300" x2="680" y2="300" stroke="#e8e8e8" stroke-width="1" stroke-dasharray="2,2"/>
+
+          <!-- Y-axis labels -->
+          <text x="40" y="360" font-size="12" fill="#666">0%</text>
+          <text x="40" y="310" font-size="12" fill="#666">20%</text>
+          <text x="35" y="260" font-size="12" fill="#666">40%</text>
+          <text x="35" y="210" font-size="12" fill="#666">60%</text>
+          <text x="35" y="160" font-size="12" fill="#666">80%</text>
+          <text x="30" y="110" font-size="12" fill="#666">100%</text>
+
+          <!-- X-axis labels -->
+          <text x="60" y="375" font-size="12" fill="#666">Day 1</text>
+          <text x="200" y="375" font-size="12" fill="#666">Day 3</text>
+          <text x="340" y="375" font-size="12" fill="#666">Day 7</text>
+          <text x="480" y="375" font-size="12" fill="#666">Day 14</text>
+          <text x="620" y="375" font-size="12" fill="#666">Day 30</text>
+
+          <!-- No Review Curve (declining) -->
+          <path d="M 60 60 Q 250 150, 680 330" stroke="#c0392b" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+          <!-- Spaced Repetition Curve (with bumps) -->
+          <path d="M 60 70 L 120 100 L 120 110 L 210 120 L 210 160 L 340 170 L 340 220 L 480 240 L 480 280 L 620 290" stroke="#006C38" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+          <!-- Legend -->
+          <line x1="80" y1="30" x2="130" y2="30" stroke="#c0392b" stroke-width="3"/>
+          <text x="140" y="35" font-size="13" fill="#333" font-weight="600">No Review</text>
+
+          <line x1="300" y1="30" x2="350" y2="30" stroke="#006C38" stroke-width="3"/>
+          <text x="360" y="35" font-size="13" fill="#333" font-weight="600">Spaced Repetition</text>
+        </svg>
+        <p style="text-align: center; font-size: 0.85rem; color: var(--text-light); margin-top: 1rem;">The red line shows rapid forgetting without review. The green line shows how spaced review keeps information fresh. Each spike represents a review session that resets the forgetting curve.</p>
+      </div>
+
+      <div class="info-box">
+        <strong>The key insight:</strong> Every time you review information, the forgetting curve resets but takes longer to decline. Review again before you forget, and retention increases exponentially.
+      </div>
+
+      <h2>How Spaced Repetition Works</h2>
+
+      <p>Spaced repetition is simple: review information at increasing intervals. The optimal timing is roughly:</p>
+
+      <ul>
+        <li><strong>After 1 day:</strong> You've forgotten ~50%. Review cements the memory.</li>
+        <li><strong>After 3 days:</strong> You've forgotten ~30% of the reviewed material. Review again.</li>
+        <li><strong>After 1 week:</strong> You've forgotten ~20%. Another review locks it in.</li>
+        <li><strong>After 2 weeks:</strong> You've forgotten ~10%. One more review.</li>
+        <li><strong>After 1 month:</strong> You've forgotten ~5%. Final review for permanent recall.</li>
+      </ul>
+
+      <p>Each review session is brief—often just 5–10 minutes. But the total time spent is less than cramming, and retention is vastly higher. After 5 spaced reviews over 30 days, you retain 90%+ of the material indefinitely.</p>
+
+      <h2>Study Method Comparison: The Numbers</h2>
+
+      <p>Here's how different study methods compare after 30 days:</p>
+
+      <div class="study-methods">
+        <div class="study-method">
+          <div class="study-method__label">No Study</div>
+          <div class="study-method__percent">5%</div>
+          <div class="study-method__desc">You forget almost everything naturally over time.</div>
+        </div>
+        <div class="study-method">
+          <div class="study-method__label">Cramming (1 session)</div>
+          <div class="study-method__percent">25%</div>
+          <div class="study-method__desc">A few hours of study helps, but you forget ~75% in a month.</div>
+        </div>
+        <div class="study-method">
+          <div class="study-method__label">Regular Study (no SR)</div>
+          <div class="study-method__percent">55%</div>
+          <div class="study-method__desc">Daily review helps, but without spacing, retention is moderate.</div>
+        </div>
+        <div class="study-method">
+          <div class="study-method__label">Spaced Repetition</div>
+          <div class="study-method__percent">90%</div>
+          <div class="study-method__desc">Optimally spaced reviews keep information locked in long-term memory.</div>
+        </div>
+      </div>
+
+      <p>Spaced repetition isn't just slightly better—it's dramatically more effective. And it requires less total study time than cramming or regular daily review.</p>
+
+      <h2>How DTT Ireland's Smart Study Implements Spaced Repetition</h2>
+
+      <p>DTT Ireland's Smart Study mode uses spaced repetition automatically. You don't have to calculate intervals—the app does it for you.</p>
+
+      <p>Here's how it works:</p>
+
+      <ol>
+        <li><strong>Answer a question:</strong> You study a question in the app.</li>
+        <li><strong>If you get it right:</strong> The app schedules it for review in 3 days.</li>
+        <li><strong>If you get it wrong:</strong> The app marks it as "weak" and reviews it tomorrow.</li>
+        <li><strong>As you progress:</strong> Review intervals automatically expand (1 day → 3 days → 1 week → 2 weeks → 1 month).</li>
+        <li><strong>Weak topics:</strong> The app prioritises harder categories (Vulnerable Road Users, Vehicle Safety) automatically, so you spend more time where you need it.</li>
+      </ol>
+
+      <p>DTT Ireland's algorithm adapts to your learning pace. Fast learners progress quickly; slower learners get more repetitions. The app works around your schedule, scheduling reviews when you actually open the app rather than forcing rigid schedules.</p>
+
+      <h2>Your 2-Week Spaced Repetition Study Plan</h2>
+
+      <p>If you have 2 weeks to prepare for the RSA test, use this schedule. Study 20–30 minutes daily, focusing on questions flagged as "weak" in DTT Ireland.</p>
+
+      <table class="study-table">
+        <tr>
+          <th style="width: 100px;">Day</th>
+          <th>Focus</th>
+          <th>Time</th>
+          <th>Action</th>
+        </tr>
+        <tr>
+          <td class="study-day">Day 1</td>
+          <td class="study-focus">All 805 questions overview</td>
+          <td>25 min</td>
+          <td>Start with 50 random questions. Mark weak ones. Don't stress about score.</td>
+        </tr>
+        <tr>
+          <td class="study-day">Day 2</td>
+          <td class="study-focus">Weak questions (Day 1)</td>
+          <td>20 min</td>
+          <td>Review only the questions you got wrong yesterday. Focus on understanding, not memorising.</td>
+        </tr>
+        <tr>
+          <td class="study-day">Day 3</td>
+          <td class="study-focus">New batch + Day 1 weak review</td>
+          <td>25 min</td>
+          <td>50 new questions, then review Day 1 weak questions again. Space out the reviews.</td>
+        </tr>
+        <tr>
+          <td class="study-day">Day 4</td>
+          <td class="study-focus">Vulnerable Road Users (hardest)</td>
+          <td>20 min</td>
+          <td>Use DTT's category filter. Focus on cyclist clearance, pedestrian rules, school zones.</td>
+        </tr>
+        <tr>
+          <td class="study-day">Day 5</td>
+          <td class="study-focus">Day 2–4 weak review</td>
+          <td>20 min</td>
+          <td>Quick review of all weak questions accumulated so far. Check for patterns in mistakes.</td>
+        </tr>
+        <tr>
+          <td class="study-day">Day 6</td>
+          <td class="study-focus">Vehicle Safety + Driver Attitudes</td>
+          <td>25 min</td>
+          <td>Use DTT's category filters. Drill tyre tread depth (1.6mm), BAC limits (0.02% learner, 0.05% ordinary).</td>
+        </tr>
+        <tr>
+          <td class="study-day">Day 7</td>
+          <td class="study-focus">All weak questions review</td>
+          <td>20 min</td>
+          <td>Week 1 complete. Review all weak questions. You should see ~20–30% fewer weak questions than Day 1.</td>
+        </tr>
+        <tr>
+          <td class="study-day">Day 8</td>
+          <td class="study-focus">First Aid + Safe Driving</td>
+          <td>25 min</td>
+          <td>Recovery position, crash scene procedures, 2-second rule. These are high-value, commonly missed topics.</td>
+        </tr>
+        <tr>
+          <td class="study-day">Day 9</td>
+          <td class="study-focus">Mock test 1</td>
+          <td>30 min</td>
+          <td>Full 40-question mock test under timed conditions (85 seconds per question average). This simulates test day.</td>
+        </tr>
+        <tr>
+          <td class="study-day">Day 10</td>
+          <td class="study-focus">Mock test 1 weak review</td>
+          <td>25 min</td>
+          <td>Review every question you got wrong. Understand the correct answer, not just memorise it.</td>
+        </tr>
+        <tr>
+          <td class="study-day">Day 11</td>
+          <td class="study-focus">Traffic Signs + Rules of the Road</td>
+          <td>20 min</td>
+          <td>High-volume categories. Use DTT's sign gallery for visual memory. Drill speed limits by context.</td>
+        </tr>
+        <tr>
+          <td class="study-day">Day 12</td>
+          <td class="study-focus">All weak questions (final push)</td>
+          <td>20 min</td>
+          <td>You should have fewer than 50 weak questions by now. Review them all once more.</td>
+        </tr>
+        <tr>
+          <td class="study-day">Day 13</td>
+          <td class="study-focus">Mock test 2</td>
+          <td>30 min</td>
+          <td>Full 40-question mock test. Aim for 35+ (87.5% pass mark). Review immediately after.</td>
+        </tr>
+        <tr>
+          <td class="study-day">Day 14</td>
+          <td class="study-focus">Final review + rest</td>
+          <td>15 min</td>
+          <td>Light review of hardest topics (Vulnerable Road Users, First Aid). Get good sleep before test day.</td>
+        </tr>
+      </table>
+
+      <h2>Practical Tips for Spaced Repetition Success</h2>
+
+      <div class="tips-grid">
+        <div class="tip-card">
+          <h4>1. Review Before You Forget</h4>
+          <p>The key is timing. Review on Day 3, not Day 4. Review on Day 7, not Day 8. Early is better than late. DTT Ireland handles this automatically.</p>
+        </div>
+        <div class="tip-card">
+          <h4>2. Focus on Weak Areas</h4>
+          <p>Spaced repetition is most powerful for hard material. Don't waste time reviewing easy questions. Let DTT's Smart Study prioritise tough categories automatically.</p>
+        </div>
+        <div class="tip-card">
+          <h4>3. Understand, Don't Memorise</h4>
+          <p>When you review a question, try to understand the logic behind the correct answer. Why is 1.6mm the tyre tread limit? Why is 1 metre clearance used for cyclists? Understanding beats blind memorisation.</p>
+        </div>
+        <div class="tip-card">
+          <h4>4. Take Mock Tests</h4>
+          <p>On Day 9 and 13, take full 40-question mock tests under timed conditions. This simulates test day and reveals remaining weak areas with 4–5 days to address them.</p>
+        </div>
+        <div class="tip-card">
+          <h4>5. Use Multiple Senses</h4>
+          <p>Read questions (visual), listen to explanations (auditory), and write down key facts (kinesthetic). Multiple sensory channels strengthen memory encoding.</p>
+        </div>
+        <div class="tip-card">
+          <h4>6. Don't Cram the Last 3 Days</h4>
+          <p>Stop heavy study 3 days before your test. Use the last few days for light review only. Your brain needs rest to consolidate long-term memory.</p>
+        </div>
+      </div>
+
+      <!-- FAQ Section -->
+      <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+          <div class="faq-item__q">Q: How is spaced repetition different from regular daily study?</div>
+          <div class="faq-item__a">Regular daily study (e.g., 30 minutes every day) is better than cramming, but it doesn't follow optimal intervals. Spaced repetition increases intervals as retention strengthens, so reviews become less frequent and more efficient. You study less total time and retain more.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-item__q">Q: Can I study more than the recommended 20–30 minutes daily?</div>
+          <div class="faq-item__a">Yes, but more isn't always better. After 30 minutes of focused study, attention drops. If you want to study longer, take a 10-minute break, then do another 30-minute session. Quality beats quantity.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-item__q">Q: What if I miss a scheduled review day?</div>
+          <div class="faq-item__a">Don't panic. If you miss Day 3, do the review on Day 4 or 5. The forgetting curve isn't strict—a day or two off doesn't ruin spaced repetition. Just get back on track. DTT Ireland's app adjusts automatically if you miss days.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-item__q">Q: How does DTT Ireland's Smart Study differ from manual spaced repetition?</div>
+          <div class="faq-item__a">DTT Ireland automates interval calculation, prioritises weak topics, adapts to your pace, and schedules reviews around when you actually open the app. Manual spaced repetition requires you to calculate intervals yourself. The app is far more convenient and equally effective.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-item__q">Q: Is spaced repetition backed by science?</div>
+          <div class="faq-item__a">Yes. Ebbinghaus's 1885 research has been replicated thousands of times. Modern studies confirm that spaced retrieval practice is one of the most effective learning techniques. It's used by medical schools, language apps (Duolingo), and military training.</div>
+        </div>
+      </section>
+
+      <!-- Related Articles -->
+      <section class="related-section">
+        <h2>Related Articles</h2>
+        <div class="related-grid">
+          <a href="most-failed-rsa-theory-test-topics.html" class="related-card">
+            <div class="related-card__cat">⚠️ Fail Analysis</div>
+            <div class="related-card__title">The 8 Most Commonly Failed RSA Theory Test Topics in Ireland (2026 Data)</div>
+          </a>
+          <a href="rsa-theory-test-categories-explained.html" class="related-card">
+            <div class="related-card__cat">📋 Categories</div>
+            <div class="related-card__title">RSA Theory Test 2026: All 8 Categories Explained With Tips & Examples</div>
+          </a>
+          <a href="theory-test-in-irish-language.html" class="related-card">
+            <div class="related-card__cat">🍀 Irish Language</div>
+            <div class="related-card__title">Taking the Irish Driving Theory Test in Irish (As Gaeilge): 2026 Complete Guide</div>
+          </a>
+        </div>
+      </section>
+    </article>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <!-- Table of Contents -->
+      <div class="sidebar-card">
+        <h4>Quick Links</h4>
+        <ul class="toc-list">
+          <li><a href="#forgetting-curve">The Forgetting Curve</a></li>
+          <li><a href="#how-sr-works">How Spaced Repetition Works</a></li>
+          <li><a href="#methods-comparison">Study Method Comparison</a></li>
+          <li><a href="#dtt-smart-study">DTT Ireland's Smart Study</a></li>
+          <li><a href="#study-plan">2-Week Study Plan</a></li>
+          <li><a href="#practical-tips">Practical Tips</a></li>
+        </ul>
+      </div>
+
+      <!-- CTA -->
+      <div class="sidebar-card app-cta-sidebar">
+        <h4>Smart Study Mode</h4>
+        <p>DTT Ireland automates spaced repetition. Review at optimal intervals without manual scheduling.</p>
+        <a href="../download.html" class="btn btn--primary" style="background: #fff; color: var(--primary);">Download Free</a>
+      </div>
+    </aside>
+  </div>
+
+  <!-- Footer CTA -->
+  <section class="article-footer-cta">
+    <div class="container" style="text-align: center;">
+      <h3>Study Smarter With Spaced Repetition</h3>
+      <p>DTT Ireland's Smart Study mode applies the science of spaced repetition automatically. Study less, remember more.</p>
+      <a href="../download.html" class="btn btn--primary">Get Started Free</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="../index.html" class="nav__brand footer__logo"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="10" fill="#006C38"/><path d="M6 10.5L8.5 13L14 7.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>DTTIreland</a>
+        <p class="footer__tagline">Irish Driving Theory Test</p>
+        <div class="footer__badges">
+          <a href="https://play.google.com/apps/testing/com.app.dttireland" target="_blank" rel="noopener"><img src="../assets/img/google-play-badge.svg" alt="Google Play"></a>
+          <a href="https://appgallery.huawei.com/app/C117270185" target="_blank" rel="noopener"><img src="../assets/img/appgallery-badge.svg" alt="AppGallery"></a>
+          <a href="../assets/app-release.apk" download="dtt-ireland.apk"><img src="../assets/img/direct-apk-badge.svg" alt="Download APK"></a>
+        </div>
+      </div>
+      <div class="footer__links">
+        <div class="footer__col"><h4 class="footer__col-title">App</h4><ul><li><a href="../features.html">Features</a></li><li><a href="../download.html">Download</a></li><li><a href="../languages.html">Languages</a></li><li><a href="../faq.html">FAQ</a></li></ul></div>
+        <div class="footer__col"><h4 class="footer__col-title">Company</h4><ul><li><a href="../about.html">About</a></li><li><a href="../blog.html">Blog</a></li><li><a href="mailto:blue0orbit@gmail.com">Contact</a></li></ul></div>
+        <div class="footer__col"><h4 class="footer__col-title">Legal</h4><ul><li><a href="../privacy-policy.html">Privacy Policy</a></li><li><a href="../terms-of-service.html">Terms of Service</a></li><li><a href="../data-deletion.html">Data Deletion</a></li></ul></div>
+      </div>
+    </div>
+    <div class="footer__bottom"><div class="container"><p>&copy; 2026 DTT Ireland. Independent app — not affiliated with the Road Safety Authority (RSA).</p></div></div>
+  </footer>
+
+  <!-- Chart.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+
+  <!-- Schema.org Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Spaced Repetition: The Science That Helps You Remember All 805 RSA Questions",
+    "description": "How spaced repetition helps Irish learner drivers memorise 805 theory test questions effectively. The science, a 2-week study plan, and how DTT Ireland's Smart Study mode does it automatically.",
+    "image": "https://dttireland.com/assets/img/blog/spaced-repetition-study-guide-ireland-hero.jpg",
+    "datePublished": "2025-12-10T00:00:00Z",
+    "author": {
+      "@type": "Organization",
+      "name": "DTT Ireland"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "DTT Ireland",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://dttireland.com/assets/img/logo.png"
+      }
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How is spaced repetition different from regular daily study?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Spaced repetition increases intervals as retention strengthens, so reviews become less frequent and more efficient. You study less total time and retain more."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I study more than the recommended 20–30 minutes daily?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, but after 30 minutes of focused study, attention drops. If you want to study longer, take a 10-minute break, then do another 30-minute session."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What if I miss a scheduled review day?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Don't panic. If you miss Day 3, do the review on Day 4 or 5. A day or two off doesn't ruin spaced repetition. Just get back on track."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is spaced repetition backed by science?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Ebbinghaus's 1885 research has been replicated thousands of times. It's used by medical schools, language apps (Duolingo), and military training."
+        }
+      }
+    ]
+  }
+  </script>
+</body>
+</html>
