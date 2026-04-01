@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dttireland.ie/sitemap.xml
+Sitemap: https://dttireland.com/sitemap.xml
