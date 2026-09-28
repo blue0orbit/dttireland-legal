@@ -1,7 +1,7 @@
 # DTT Ireland
 > Irish Driving Theory Test preparation app for Android
 
-DTT Ireland is a free Android app that helps people in Ireland pass the official RSA driving theory test. It contains 805 real RSA questions from the official question bank, full mock exams in the exact RSA format (40 questions, 45-minute time limit, 87.5% pass mark), immersive 60fps physics-based driving scenario simulations, and a smart spaced-repetition study mode. Available in 8 languages, including Arabic and Urdu with full right-to-left rendering. Free to download on Google Play and Huawei AppGallery, with an optional one-time €1.99 Premium to remove ads. No subscription.
+DTT Ireland is a free Android app that helps people in Ireland pass the official RSA driving theory test. It contains 805 real RSA questions from the official question bank, full mock exams in the exact RSA format (40 questions, 45-minute time limit, 87.5% pass mark), immersive 60fps physics-based driving scenario simulations, and a smart spaced-repetition study mode. Available in 9 languages, including Arabic and Urdu with full right-to-left rendering. Free to download on Google Play and Huawei AppGallery, with an optional one-time Pro purchase (see in-app pricing) to remove ads. No subscription.
 
 ## Key Pages
 
@@ -29,7 +29,7 @@ DTT Ireland is a free Android app that helps people in Ireland pass the official
 ## Frequently Asked Questions
 
 **Is DTT Ireland free?**
-Yes. DTT Ireland is free to download. The free version includes ads. An optional one-time €1.99 Premium removes all ads — no subscription ever.
+Yes. DTT Ireland is free to download. The free version includes ads. An optional one-time Pro purchase (see in-app pricing) removes all ads — no subscription ever.
 
 **What questions are included?**
 All 805 questions from the official RSA question bank, across 8 categories, each with detailed explanations.
@@ -42,3 +42,11 @@ English (IE), Irish (Gaeilge), Polish, Portuguese, Ukrainian, Arabic, Urdu, and 
 
 **Is this app affiliated with the RSA?**
 No. DTT Ireland is independently developed. Questions are sourced from the official RSA question bank.
+
+## September 2026 update
+Motorcycle practice and Simplified Chinese are available in the latest Android app.
+Official booking links: https://dttireland.com/resources.html
+Motorcycle: https://dttireland.com/motorcycle.html
+Guide: https://dttireland.com/blog/learner-permit-renewal-rules-november-2026.html
+Guide: https://dttireland.com/blog/motorcycle-theory-test-ireland-getting-started.html
+Guide: https://dttireland.com/blog/irish-theory-test-chinese-study-guide.html
