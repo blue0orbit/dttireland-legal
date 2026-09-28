@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-site-js">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -143,38 +143,13 @@
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
   </script>
-</head>
+<link rel="stylesheet" href="assets/css/editorial.css?v=20260928-v2"></head>
 <body>
 
   <!-- ── NAVIGATION ─────────────────────────────────────────────────────── -->
-  <nav class="nav" id="mainNav">
-    <div class="container nav__inner">
-      <a href="index.html" class="nav__brand">
-        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-          <circle cx="10" cy="10" r="10" fill="#006C38"/>
-          <path d="M6 10.5L8.5 13L14 7.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-        DTTIreland
-      </a>
+  <a class="site-skip" href="#main-content">Skip to content</a><header class="site-header" id="siteHeader"><div class="site-header-inner"><a class="site-brand" href="index.html" aria-label="DTT Ireland home"><span aria-hidden="true">✓</span>DTT<span class="brand-light">Ireland</span></a><nav class="site-menu" id="siteMenu" aria-label="Main navigation"><ul><li><a href="features.html">Features</a></li><li><a href="motorcycle.html">Motorcycle</a></li><li><a href="languages.html">Languages</a></li><li><a href="blog.html">Guides</a></li><li><a href="resources.html">Useful links</a></li><li><a href="webapp.html">Web app</a></li><li><a href="faq.html">FAQ</a></li><li><a href="about.html">About</a></li></ul></nav><a class="site-download" href="download.html">Get the app <span aria-hidden="true">↗</span></a><button class="site-menu-toggle" id="siteMenuToggle" aria-expanded="false" aria-controls="siteMenu"><span>Menu</span><span class="menu-symbol" aria-hidden="true">☰</span></button></div></header>
 
-      <ul class="nav__links" id="navLinks" aria-label="Main navigation">
-        <li><a href="features.html">Features</a></li>
-        <li><a href="languages.html">Languages</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="webapp.html">Web App ✦</a></li>
-        <li><a href="blog.html">Blog</a></li><li><a href="resources.html">Useful links</a></li>
-      </ul>
-
-      <a href="download.html" class="btn btn--primary nav__cta">Download Free</a>
-
-      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </nav>
-
-  <main>
+  <main id="main-content">
 
     <!-- ── HERO ───────────────────────────────────────────────────────────── -->
     <section class="hero" aria-label="Hero">
@@ -510,67 +485,10 @@
       </div>
     </section>
 
-  <section class="content-section"><div class="container"><h2 class="section-heading">Latest learner guides</h2><div class="update-grid"><a href="blog/learner-permit-renewal-rules-november-2026.html" class="update-card"><span class="update-label">28 September 2026</span><h3>Ireland’s learner-permit renewal changes: 1 November 2026</h3><p>What learners should check before their next permit renewal, with the RSA’s announced start date.</p><span>Read guide →</span></a><a href="blog/motorcycle-theory-test-ireland-getting-started.html" class="update-card"><span class="update-label">28 September 2026</span><h3>Motorcycle theory test in Ireland: where to start</h3><p>A practical route through category selection, theory booking, learner permits and motorcycle training.</p><span>Read guide →</span></a><a href="blog/irish-theory-test-chinese-study-guide.html" class="update-card"><span class="update-label">28 September 2026</span><h3>Studying for Ireland’s theory test in Chinese</h3><p>Simplified Chinese study support, official exam voiceover options and a practical revision routine.</p><span>Read guide →</span></a></div></div></section></main>
+  <section class="container related-section"><span class="eyebrow">For your next step</span><h2>Practical learner guides</h2><div class="story-grid"><a class="story-card" href="blog/ibt-motorcycle-training-ireland.html"><div class="story-image"><img src="assets/img/blog/ibt-training-ireland.webp" srcset="assets/img/blog/ibt-training-ireland-small.webp 600w, assets/img/blog/ibt-training-ireland.webp 1200w" sizes="(max-width: 640px) 100vw, (max-width: 1000px) 50vw, 380px" width="1200" height="800" alt="Illustration of a learner on a stationary motorcycle speaking with an instructor in a training area." loading="lazy" decoding="async"></div><div class="story-copy"><span class="eyebrow">Motorcycle training</span><h3>IBT in Ireland: your first motorcycle training course</h3><p>Understand IBT hours and modules, compare instructor quotes and prepare for your first motorcycle training session.</p><div class="story-meta"><span>4 min read</span><span>Read guide <span aria-hidden="true">↗</span></span></div></div></a><a class="story-card" href="blog/motorcycle-theory-test-ireland-getting-started.html"><div class="story-image"><img src="assets/img/blog/motorcycle-theory-preparation.webp" srcset="assets/img/blog/motorcycle-theory-preparation-small.webp 600w, assets/img/blog/motorcycle-theory-preparation.webp 1200w" sizes="(max-width: 640px) 100vw, (max-width: 1000px) 50vw, 380px" width="1200" height="800" alt="Illustration of a motorcycle helmet, gloves, notebook and phone beside a parked motorcycle." loading="lazy" decoding="async"></div><div class="story-copy"><span class="eyebrow">Motorcycle theory</span><h3>Motorcycle theory test in Ireland: a practical study plan</h3><p>Choose the correct theory test, build a motorcycle revision routine and understand the next steps towards your learner permit and IBT.</p><div class="story-meta"><span>4 min read</span><span>Read guide <span aria-hidden="true">↗</span></span></div></div></a><a class="story-card" href="blog/irish-theory-test-chinese-study-guide.html"><div class="story-image"><img src="assets/img/blog/chinese-theory-study.webp" srcset="assets/img/blog/chinese-theory-study-small.webp 600w, assets/img/blog/chinese-theory-study.webp 1200w" sizes="(max-width: 640px) 100vw, (max-width: 1000px) 50vw, 380px" width="1200" height="800" alt="Illustration of a Chinese learner studying with a phone, notebook and road-sign cards at a desk." loading="lazy" decoding="async"></div><div class="story-copy"><span class="eyebrow">Languages & learning</span><h3>Irish theory test in Chinese: study, terminology and booking</h3><p>A bilingual study routine for Chinese-speaking learners, with the official BW voiceover distinction and a practical booking checklist.</p><div class="story-meta"><span>4 min read</span><span>Read guide <span aria-hidden="true">↗</span></span></div></div></a></div><p class="all-guides-link"><a href="blog.html">Explore all learner guides ↗</a></p></section></main>
 
   <!-- ── FOOTER ─────────────────────────────────────────────────────────── -->
-  <footer class="footer">
-    <div class="container footer__inner">
-      <div class="footer__brand">
-        <a href="index.html" class="nav__brand footer__logo">
-          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-            <circle cx="10" cy="10" r="10" fill="#006C38"/>
-            <path d="M6 10.5L8.5 13L14 7.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-          DTTIreland
-        </a>
-        <p class="footer__tagline">Irish Driving Theory Test</p>
-        <div class="footer__badges">
-          <a href="https://play.google.com/store/apps/details?id=com.app.dttireland&pli=1" target="_blank" rel="noopener">
-            <img src="assets/img/google-play-badge.svg" alt="Google Play">
-          </a>
-          <a href="https://appgallery.huawei.com/app/C117270185" target="_blank" rel="noopener">
-            <img src="assets/img/appgallery-badge.svg" alt="AppGallery">
-          </a>
-          <a href="assets/app-release.apk" download="dtt-ireland.apk">
-            <img src="assets/img/direct-apk-badge.svg" alt="Download APK">
-          </a>
-        </div>
-      </div>
-
-      <div class="footer__links">
-        <div class="footer__col">
-          <h4 class="footer__col-title">App</h4>
-          <ul>
-            <li><a href="features.html">Features</a></li>
-            <li><a href="download.html">Download</a></li>
-            <li><a href="languages.html">Languages</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-          </ul>
-        </div>
-        <div class="footer__col">
-          <h4 class="footer__col-title">Company</h4>
-          <ul>
-            <li><a href="about.html">About</a></li>
-            <li><a href="mailto:blue0orbit@gmail.com">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer__col">
-          <h4 class="footer__col-title">Legal</h4>
-          <ul>
-            <li><a href="privacy-policy.html">Privacy Policy</a></li>
-            <li><a href="terms-of-service.html">Terms of Service</a></li>
-            <li><a href="data-deletion.html">Data Deletion</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer__bottom">
-      <div class="container">
-        <p>&copy; 2026 DTT Ireland. Independent app — not affiliated with the Road Safety Authority (RSA).</p>
-      </div>
-    </div>
-  </footer>
+  <footer class="site-footer"><div class="container footer-top"><div><a class="site-brand" href="index.html"><span aria-hidden="true">✓</span>DTT<span class="brand-light">Ireland</span></a><p>Build your knowledge.<br>Take your next step with confidence.</p><a class="footer-store" href="https://play.google.com/store/apps/details?id=com.app.dttireland">Get the Android app ↗</a></div><div><h2>Explore the app</h2><a href="features.html">Features</a><a href="motorcycle.html">Motorcycle practice</a><a href="languages.html">Study languages</a><a href="webapp.html">Web app</a><a href="download.html">Download</a></div><div><h2>For learners</h2><a href="blog.html">All guides</a><a href="resources.html">Official services &amp; useful links</a><a href="blog/ibt-motorcycle-training-ireland.html">IBT training guide</a><a href="faq.html">Frequently asked questions</a><a href="about.html">About DTT Ireland</a></div><div><h2>Support &amp; legal</h2><a href="mailto:blue0orbit@gmail.com">Contact us</a><a href="privacy-policy.html">Privacy policy</a><a href="terms-of-service.html">Terms of service</a><a href="data-deletion.html">Account deletion</a></div></div><div class="container footer-bottom">© 2026 DTT Ireland. Independent study app. Not affiliated with the RSA, NDLS or Prometric.</div></footer>
 
   <script src="assets/js/main.js"></script>
   <style>
@@ -600,5 +518,5 @@
       var t=setInterval(function(){goTo(cur+1)},3200);
     })();
   </script>
-</body>
+<script src="assets/js/site.js?v=20260928-v2" defer></script></body>
 </html>
