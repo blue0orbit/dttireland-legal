@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-site-js">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -563,24 +563,10 @@
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
   </script>
-</head>
+<link rel="stylesheet" href="../assets/css/editorial.css?v=20260928-v2"></head>
 <body>
   <!-- Navigation -->
-  <nav class="nav" id="mainNav">
-    <div class="container nav__inner">
-      <a href="../index.html" class="nav__brand"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="10" fill="#006C38"/><path d="M6 10.5L8.5 13L14 7.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>DTTIreland</a>
-      <ul class="nav__links" id="navLinks">
-        <li><a href="../features.html">Features</a></li>
-        <li><a href="../languages.html">Languages</a></li>
-        <li><a href="../faq.html">FAQ</a></li>
-        <li><a href="../about.html">About</a></li>
-        <li><a href="../webapp.html">Web App ✦</a></li>
-        <li><a href="../blog.html" style="color:var(--primary)">Blog</a></li>
-      </ul>
-      <a href="../download.html" class="btn btn--primary nav__cta">Download Free</a>
-      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
-    </div>
-  </nav>
+  <a class="site-skip" href="#main-content">Skip to content</a><header class="site-header" id="siteHeader"><div class="site-header-inner"><a class="site-brand" href="../index.html" aria-label="DTT Ireland home"><span aria-hidden="true">✓</span>DTT<span class="brand-light">Ireland</span></a><nav class="site-menu" id="siteMenu" aria-label="Main navigation"><ul><li><a href="../features.html">Features</a></li><li><a href="../motorcycle.html">Motorcycle</a></li><li><a href="../languages.html">Languages</a></li><li><a href="../blog.html" aria-current="page">Guides</a></li><li><a href="../resources.html">Useful links</a></li><li><a href="../webapp.html">Web app</a></li><li><a href="../faq.html">FAQ</a></li><li><a href="../about.html">About</a></li></ul></nav><a class="site-download" href="../download.html">Get the app <span aria-hidden="true">↗</span></a><button class="site-menu-toggle" id="siteMenuToggle" aria-expanded="false" aria-controls="siteMenu"><span>Menu</span><span class="menu-symbol" aria-hidden="true">☰</span></button></div></header>
 
   <!-- Hero Section -->
   <section class="article-hero">
@@ -605,7 +591,7 @@
 
   <!-- Article Layout -->
   <div class="article-layout">
-    <article class="article-content">
+    <article class="article-content" id="main-content">
       <!-- Introduction -->
       <p>The RSA driving theory test draws questions from 8 distinct categories. Understanding what each category covers—and how many questions you'll face—is the first step to strategic, efficient study. This guide breaks down all 8 categories with the exact topics tested, difficulty level, and expert tips for each section.</p>
 
@@ -627,7 +613,7 @@
         <div class="category-card__header">
           <div class="category-card__num">1</div>
           <div>
-            <h3 class="category-card__title">Rules of the Road</h3>
+            <h3 class="category-card__title" id="rules-of-road">Rules of the Road</h3>
             <p style="margin: 0; color: var(--text-light); font-size: 0.9rem;">Speed limits, road markings, junctions, overtaking, priorities</p>
           </div>
           <span class="category-card__percent">~22% (9 questions)</span>
@@ -663,7 +649,7 @@
         <div class="category-card__header">
           <div class="category-card__num">2</div>
           <div>
-            <h3 class="category-card__title">Traffic Signs</h3>
+            <h3 class="category-card__title" id="traffic-signs">Traffic Signs</h3>
             <p style="margin: 0; color: var(--text-light); font-size: 0.9rem;">Warning signs, regulatory signs, information signs, directional signs</p>
           </div>
           <span class="category-card__percent">~18% (7 questions)</span>
@@ -699,7 +685,7 @@
         <div class="category-card__header">
           <div class="category-card__num">3</div>
           <div>
-            <h3 class="category-card__title">Safe Driving</h3>
+            <h3 class="category-card__title" id="safe-driving">Safe Driving</h3>
             <p style="margin: 0; color: var(--text-light); font-size: 0.9rem;">Following distance, night driving, fog, motorway rules, reversing</p>
           </div>
           <span class="category-card__percent">~17% (7 questions)</span>
@@ -735,7 +721,7 @@
         <div class="category-card__header">
           <div class="category-card__num">4</div>
           <div>
-            <h3 class="category-card__title">Vehicle Safety</h3>
+            <h3 class="category-card__title" id="vehicle-safety">Vehicle Safety</h3>
             <p style="margin: 0; color: var(--text-light); font-size: 0.9rem;">Tyres, lights, brakes, mirrors, towing, load securing</p>
           </div>
           <span class="category-card__percent">~13% (5 questions)</span>
@@ -771,7 +757,7 @@
         <div class="category-card__header">
           <div class="category-card__num">5</div>
           <div>
-            <h3 class="category-card__title">Driver Attitudes</h3>
+            <h3 class="category-card__title" id="driver-attitudes">Driver Attitudes</h3>
             <p style="margin: 0; color: var(--text-light); font-size: 0.9rem;">Drink driving, drug driving, mobile phone, fatigue, emotions</p>
           </div>
           <span class="category-card__percent">~11% (4 questions)</span>
@@ -807,7 +793,7 @@
         <div class="category-card__header">
           <div class="category-card__num">6</div>
           <div>
-            <h3 class="category-card__title">Vulnerable Road Users</h3>
+            <h3 class="category-card__title" id="vulnerable">Vulnerable Road Users</h3>
             <p style="margin: 0; color: var(--text-light); font-size: 0.9rem;">Cyclists, pedestrians, motorcyclists, children, elderly, disabled</p>
           </div>
           <span class="category-card__percent">~9% (4 questions)</span>
@@ -843,7 +829,7 @@
         <div class="category-card__header">
           <div class="category-card__num">7</div>
           <div>
-            <h3 class="category-card__title">Environment</h3>
+            <h3 class="category-card__title" id="environment">Environment</h3>
             <p style="margin: 0; color: var(--text-light); font-size: 0.9rem;">Eco-driving, fuel efficiency, emissions, tyre pressure</p>
           </div>
           <span class="category-card__percent">~6% (2 questions)</span>
@@ -879,7 +865,7 @@
         <div class="category-card__header">
           <div class="category-card__num">8</div>
           <div>
-            <h3 class="category-card__title">First Aid</h3>
+            <h3 class="category-card__title" id="first-aid">First Aid</h3>
             <p style="margin: 0; color: var(--text-light); font-size: 0.9rem;">Crash scene, injured persons, recovery position, CPR</p>
           </div>
           <span class="category-card__percent">~4% (2 questions)</span>
@@ -1052,25 +1038,7 @@
   </section>
 
   <!-- Footer -->
-  <footer class="footer">
-    <div class="container footer__inner">
-      <div class="footer__brand">
-        <a href="../index.html" class="nav__brand footer__logo"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="10" fill="#006C38"/><path d="M6 10.5L8.5 13L14 7.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>DTTIreland</a>
-        <p class="footer__tagline">Irish Driving Theory Test</p>
-        <div class="footer__badges">
-          <a href="https://play.google.com/store/apps/details?id=com.app.dttireland&pli=1" target="_blank" rel="noopener"><img src="../assets/img/google-play-badge.svg" alt="Google Play"></a>
-          <a href="https://appgallery.huawei.com/app/C117270185" target="_blank" rel="noopener"><img src="../assets/img/appgallery-badge.svg" alt="AppGallery"></a>
-          <a href="../assets/app-release.apk" download="dtt-ireland.apk"><img src="../assets/img/direct-apk-badge.svg" alt="Download APK"></a>
-        </div>
-      </div>
-      <div class="footer__links">
-        <div class="footer__col"><h4 class="footer__col-title">App</h4><ul><li><a href="../features.html">Features</a></li><li><a href="../download.html">Download</a></li><li><a href="../languages.html">Languages</a></li><li><a href="../faq.html">FAQ</a></li></ul></div>
-        <div class="footer__col"><h4 class="footer__col-title">Company</h4><ul><li><a href="../about.html">About</a></li><li><a href="../blog.html">Blog</a></li><li><a href="../resources.html">Useful links</a></li><li><a href="mailto:blue0orbit@gmail.com">Contact</a></li></ul></div>
-        <div class="footer__col"><h4 class="footer__col-title">Legal</h4><ul><li><a href="../privacy-policy.html">Privacy Policy</a></li><li><a href="../terms-of-service.html">Terms of Service</a></li><li><a href="../data-deletion.html">Data Deletion</a></li></ul></div>
-      </div>
-    </div>
-    <div class="footer__bottom"><div class="container"><p>&copy; 2026 DTT Ireland. Independent app — not affiliated with the Road Safety Authority (RSA).</p></div></div>
-  </footer>
+  <footer class="site-footer"><div class="container footer-top"><div><a class="site-brand" href="../index.html"><span aria-hidden="true">✓</span>DTT<span class="brand-light">Ireland</span></a><p>Build your knowledge.<br>Take your next step with confidence.</p><a class="footer-store" href="https://play.google.com/store/apps/details?id=com.app.dttireland">Get the Android app ↗</a></div><div><h2>Explore the app</h2><a href="../features.html">Features</a><a href="../motorcycle.html">Motorcycle practice</a><a href="../languages.html">Study languages</a><a href="../webapp.html">Web app</a><a href="../download.html">Download</a></div><div><h2>For learners</h2><a href="../blog.html">All guides</a><a href="../resources.html">Official services &amp; useful links</a><a href="../blog/ibt-motorcycle-training-ireland.html">IBT training guide</a><a href="../faq.html">Frequently asked questions</a><a href="../about.html">About DTT Ireland</a></div><div><h2>Support &amp; legal</h2><a href="mailto:blue0orbit@gmail.com">Contact us</a><a href="../privacy-policy.html">Privacy policy</a><a href="../terms-of-service.html">Terms of service</a><a href="../data-deletion.html">Account deletion</a></div></div><div class="container footer-bottom">© 2026 DTT Ireland. Independent study app. Not affiliated with the RSA, NDLS or Prometric.</div></footer>
 
   <!-- Chart.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
@@ -1170,5 +1138,5 @@
     ]
   }
   </script>
-</body>
+<script src="../assets/js/site.js?v=20260928-v2" defer></script></body>
 </html>

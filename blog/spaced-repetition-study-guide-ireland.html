@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-site-js">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -557,24 +557,10 @@
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
   </script>
-</head>
+<link rel="stylesheet" href="../assets/css/editorial.css?v=20260928-v2"></head>
 <body>
   <!-- Navigation -->
-  <nav class="nav" id="mainNav">
-    <div class="container nav__inner">
-      <a href="../index.html" class="nav__brand"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="10" fill="#006C38"/><path d="M6 10.5L8.5 13L14 7.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>DTTIreland</a>
-      <ul class="nav__links" id="navLinks">
-        <li><a href="../features.html">Features</a></li>
-        <li><a href="../languages.html">Languages</a></li>
-        <li><a href="../faq.html">FAQ</a></li>
-        <li><a href="../about.html">About</a></li>
-        <li><a href="../webapp.html">Web App ✦</a></li>
-        <li><a href="../blog.html" style="color:var(--primary)">Blog</a></li>
-      </ul>
-      <a href="../download.html" class="btn btn--primary nav__cta">Download Free</a>
-      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
-    </div>
-  </nav>
+  <a class="site-skip" href="#main-content">Skip to content</a><header class="site-header" id="siteHeader"><div class="site-header-inner"><a class="site-brand" href="../index.html" aria-label="DTT Ireland home"><span aria-hidden="true">✓</span>DTT<span class="brand-light">Ireland</span></a><nav class="site-menu" id="siteMenu" aria-label="Main navigation"><ul><li><a href="../features.html">Features</a></li><li><a href="../motorcycle.html">Motorcycle</a></li><li><a href="../languages.html">Languages</a></li><li><a href="../blog.html" aria-current="page">Guides</a></li><li><a href="../resources.html">Useful links</a></li><li><a href="../webapp.html">Web app</a></li><li><a href="../faq.html">FAQ</a></li><li><a href="../about.html">About</a></li></ul></nav><a class="site-download" href="../download.html">Get the app <span aria-hidden="true">↗</span></a><button class="site-menu-toggle" id="siteMenuToggle" aria-expanded="false" aria-controls="siteMenu"><span>Menu</span><span class="menu-symbol" aria-hidden="true">☰</span></button></div></header>
 
   <!-- Hero Section -->
   <section class="article-hero">
@@ -599,7 +585,7 @@
 
   <!-- Article Layout -->
   <div class="article-layout">
-    <article class="article-content">
+    <article class="article-content" id="main-content">
       <!-- Introduction -->
       <p>Cramming the night before doesn't work. You'll memorise some questions, but forget most of them within 24 hours. Yet nearly half of Irish learners try it anyway.</p>
 
@@ -607,7 +593,7 @@
 
       <p>This guide explains the science behind spaced repetition, shows you a 2-week study plan, and reveals how DTT Ireland's Smart Study mode does it automatically.</p>
 
-      <h2>The Forgetting Curve: Why Your Brain Forgets</h2>
+      <h2 id="forgetting-curve">The Forgetting Curve: Why Your Brain Forgets</h2>
 
       <p>In 1885, German psychologist Hermann Ebbinghaus conducted a landmark experiment. He memorised nonsense syllables, then tested how long he remembered them. The results were shocking.</p>
 
@@ -663,7 +649,7 @@
         <strong>The key insight:</strong> Every time you review information, the forgetting curve resets but takes longer to decline. Review again before you forget, and retention increases exponentially.
       </div>
 
-      <h2>How Spaced Repetition Works</h2>
+      <h2 id="how-sr-works">How Spaced Repetition Works</h2>
 
       <p>Spaced repetition is simple: review information at increasing intervals. The optimal timing is roughly:</p>
 
@@ -677,7 +663,7 @@
 
       <p>Each review session is brief—often just 5–10 minutes. But the total time spent is less than cramming, and retention is vastly higher. After 5 spaced reviews over 30 days, you retain 90%+ of the material indefinitely.</p>
 
-      <h2>Study Method Comparison: The Numbers</h2>
+      <h2 id="methods-comparison">Study Method Comparison: The Numbers</h2>
 
       <p>Here's how different study methods compare after 30 days:</p>
 
@@ -706,7 +692,7 @@
 
       <p>Spaced repetition isn't just slightly better—it's dramatically more effective. And it requires less total study time than cramming or regular daily review.</p>
 
-      <h2>How DTT Ireland's Smart Study Implements Spaced Repetition</h2>
+      <h2 id="dtt-smart-study">How DTT Ireland's Smart Study Implements Spaced Repetition</h2>
 
       <p>DTT Ireland's Smart Study mode uses spaced repetition automatically. You don't have to calculate intervals—the app does it for you.</p>
 
@@ -722,7 +708,7 @@
 
       <p>DTT Ireland's algorithm adapts to your learning pace. Fast learners progress quickly; slower learners get more repetitions. The app works around your schedule, scheduling reviews when you actually open the app rather than forcing rigid schedules.</p>
 
-      <h2>Your 2-Week Spaced Repetition Study Plan</h2>
+      <h2 id="study-plan">Your 2-Week Spaced Repetition Study Plan</h2>
 
       <p>If you have 2 weeks to prepare for the RSA test, use this schedule. Study 20–30 minutes daily, focusing on questions flagged as "weak" in DTT Ireland.</p>
 
@@ -819,7 +805,7 @@
         </tr>
       </table>
 
-      <h2>Practical Tips for Spaced Repetition Success</h2>
+      <h2 id="practical-tips">Practical Tips for Spaced Repetition Success</h2>
 
       <div class="tips-grid">
         <div class="tip-card">
@@ -927,25 +913,7 @@
   </section>
 
   <!-- Footer -->
-  <footer class="footer">
-    <div class="container footer__inner">
-      <div class="footer__brand">
-        <a href="../index.html" class="nav__brand footer__logo"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="10" fill="#006C38"/><path d="M6 10.5L8.5 13L14 7.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>DTTIreland</a>
-        <p class="footer__tagline">Irish Driving Theory Test</p>
-        <div class="footer__badges">
-          <a href="https://play.google.com/store/apps/details?id=com.app.dttireland&pli=1" target="_blank" rel="noopener"><img src="../assets/img/google-play-badge.svg" alt="Google Play"></a>
-          <a href="https://appgallery.huawei.com/app/C117270185" target="_blank" rel="noopener"><img src="../assets/img/appgallery-badge.svg" alt="AppGallery"></a>
-          <a href="../assets/app-release.apk" download="dtt-ireland.apk"><img src="../assets/img/direct-apk-badge.svg" alt="Download APK"></a>
-        </div>
-      </div>
-      <div class="footer__links">
-        <div class="footer__col"><h4 class="footer__col-title">App</h4><ul><li><a href="../features.html">Features</a></li><li><a href="../download.html">Download</a></li><li><a href="../languages.html">Languages</a></li><li><a href="../faq.html">FAQ</a></li></ul></div>
-        <div class="footer__col"><h4 class="footer__col-title">Company</h4><ul><li><a href="../about.html">About</a></li><li><a href="../blog.html">Blog</a></li><li><a href="../resources.html">Useful links</a></li><li><a href="mailto:blue0orbit@gmail.com">Contact</a></li></ul></div>
-        <div class="footer__col"><h4 class="footer__col-title">Legal</h4><ul><li><a href="../privacy-policy.html">Privacy Policy</a></li><li><a href="../terms-of-service.html">Terms of Service</a></li><li><a href="../data-deletion.html">Data Deletion</a></li></ul></div>
-      </div>
-    </div>
-    <div class="footer__bottom"><div class="container"><p>&copy; 2026 DTT Ireland. Independent app — not affiliated with the Road Safety Authority (RSA).</p></div></div>
-  </footer>
+  <footer class="site-footer"><div class="container footer-top"><div><a class="site-brand" href="../index.html"><span aria-hidden="true">✓</span>DTT<span class="brand-light">Ireland</span></a><p>Build your knowledge.<br>Take your next step with confidence.</p><a class="footer-store" href="https://play.google.com/store/apps/details?id=com.app.dttireland">Get the Android app ↗</a></div><div><h2>Explore the app</h2><a href="../features.html">Features</a><a href="../motorcycle.html">Motorcycle practice</a><a href="../languages.html">Study languages</a><a href="../webapp.html">Web app</a><a href="../download.html">Download</a></div><div><h2>For learners</h2><a href="../blog.html">All guides</a><a href="../resources.html">Official services &amp; useful links</a><a href="../blog/ibt-motorcycle-training-ireland.html">IBT training guide</a><a href="../faq.html">Frequently asked questions</a><a href="../about.html">About DTT Ireland</a></div><div><h2>Support &amp; legal</h2><a href="mailto:blue0orbit@gmail.com">Contact us</a><a href="../privacy-policy.html">Privacy policy</a><a href="../terms-of-service.html">Terms of service</a><a href="../data-deletion.html">Account deletion</a></div></div><div class="container footer-bottom">© 2026 DTT Ireland. Independent study app. Not affiliated with the RSA, NDLS or Prometric.</div></footer>
 
   <!-- Chart.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
@@ -1014,5 +982,5 @@
     ]
   }
   </script>
-</body>
+<script src="../assets/js/site.js?v=20260928-v2" defer></script></body>
 </html>

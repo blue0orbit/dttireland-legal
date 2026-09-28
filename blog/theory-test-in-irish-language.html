@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-site-js">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -534,28 +534,14 @@
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
   </script>
-</head>
+<link rel="stylesheet" href="../assets/css/editorial.css?v=20260928-v2"></head>
 <body>
   <!-- Navigation -->
-  <nav class="nav" id="mainNav">
-    <div class="container nav__inner">
-      <a href="../index.html" class="nav__brand"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="10" fill="#006C38"/><path d="M6 10.5L8.5 13L14 7.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>DTTIreland</a>
-      <ul class="nav__links" id="navLinks">
-        <li><a href="../features.html">Features</a></li>
-        <li><a href="../languages.html">Languages</a></li>
-        <li><a href="../faq.html">FAQ</a></li>
-        <li><a href="../about.html">About</a></li>
-        <li><a href="../webapp.html">Web App ✦</a></li>
-        <li><a href="../blog.html" style="color:var(--primary)">Blog</a></li>
-      </ul>
-      <a href="../download.html" class="btn btn--primary nav__cta">Download Free</a>
-      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
-    </div>
-  </nav>
+  <a class="site-skip" href="#main-content">Skip to content</a><header class="site-header" id="siteHeader"><div class="site-header-inner"><a class="site-brand" href="../index.html" aria-label="DTT Ireland home"><span aria-hidden="true">✓</span>DTT<span class="brand-light">Ireland</span></a><nav class="site-menu" id="siteMenu" aria-label="Main navigation"><ul><li><a href="../features.html">Features</a></li><li><a href="../motorcycle.html">Motorcycle</a></li><li><a href="../languages.html">Languages</a></li><li><a href="../blog.html" aria-current="page">Guides</a></li><li><a href="../resources.html">Useful links</a></li><li><a href="../webapp.html">Web app</a></li><li><a href="../faq.html">FAQ</a></li><li><a href="../about.html">About</a></li></ul></nav><a class="site-download" href="../download.html">Get the app <span aria-hidden="true">↗</span></a><button class="site-menu-toggle" id="siteMenuToggle" aria-expanded="false" aria-controls="siteMenu"><span>Menu</span><span class="menu-symbol" aria-hidden="true">☰</span></button></div></header>
 
   <!-- Hero Section -->
   <section class="article-hero">
-    <img src="../assets/img/blog/theory-test-in-irish-language-hero.png" alt="Irish Language Theory Test" class="article-hero__img" onerror="this.style.display='none'">
+    <img src="../assets/img/blog/irish-language-hero.png" alt="Irish Language Theory Test" class="article-hero__img" onerror="this.style.display='none'">
     <div class="article-hero__overlay">
       <div class="article-hero__inner">
         <div class="breadcrumb">
@@ -576,7 +562,7 @@
 
   <!-- Article Layout -->
   <div class="article-layout">
-    <article class="article-content">
+    <article class="article-content" id="main-content">
       <!-- Introduction -->
       <p>Yes, you can take the RSA driving theory test in Irish. If Irish is your first language or you're more comfortable with Gaeilge, you have the option to take the entire 40-question test in Irish (as Gaeilge).</p>
 
@@ -586,7 +572,7 @@
         <strong>Key point:</strong> The Irish-language test contains the exact same 805 questions and pass requirements as the English version. The difficulty level is identical—only the language changes.
       </div>
 
-      <h2>How to Request the Irish Language Theory Test</h2>
+      <h2 id="request-irish-test">How to Request the Irish Language Theory Test</h2>
 
       <div class="steps">
         <div class="step">
@@ -638,7 +624,7 @@
         </div>
       </div>
 
-      <h2>Essential Irish Driving Vocabulary</h2>
+      <h2 id="vocabulary">Essential Irish Driving Vocabulary</h2>
 
       <p>These are the most important Irish driving terms you'll encounter on the test. Learn these first—they appear frequently across all categories.</p>
 
@@ -760,7 +746,7 @@
         </tr>
       </table>
 
-      <h2>Tips for Studying in Irish</h2>
+      <h2 id="study-tips">Tips for Studying in Irish</h2>
 
       <ol>
         <li><strong>Use DTT Ireland's Irish language mode:</strong> The app includes the full 805-question bank translated into Irish. Toggle to "Gaeilge" in the settings and study the same questions in Irish as you would in English. This is the most efficient approach.</li>
@@ -776,7 +762,7 @@
         <li><strong>Focus on hard categories in Irish:</strong> Vulnerable Road Users, Vehicle Safety, and First Aid are hardest in any language. Use DTT's Irish Smart Study mode to prioritise these categories in Irish.</li>
       </ol>
 
-      <h2>DTT Ireland's Irish Language Support</h2>
+      <h2 id="dtt-support">DTT Ireland's Irish Language Support</h2>
 
       <p>DTT Ireland is one of the only Irish theory test apps that fully supports Irish (Gaeilge) language study. Here's what we offer:</p>
 
@@ -800,7 +786,7 @@
         <div class="trivia-box__content">DTT Ireland is one of the only Irish driving theory test study apps that offers full Irish language support. Most competitors only offer English. If you prefer studying in Irish or want to solidify your Irish vocabulary for driving, DTT Ireland is the best choice available.</div>
       </div>
 
-      <h2>Is the Irish Language Test Harder Than English?</h2>
+      <h2 id="difficulty">Is the Irish Language Test Harder Than English?</h2>
 
       <p><strong>No.</strong> The Irish-language test is not harder than the English version. It's the same 805 questions translated accurately. The pass mark is identical: 35 out of 40 (87.5%). The time limit is the same: 85 seconds per question average.</p>
 
@@ -901,25 +887,7 @@
   </section>
 
   <!-- Footer -->
-  <footer class="footer">
-    <div class="container footer__inner">
-      <div class="footer__brand">
-        <a href="../index.html" class="nav__brand footer__logo"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="10" fill="#006C38"/><path d="M6 10.5L8.5 13L14 7.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>DTTIreland</a>
-        <p class="footer__tagline">Irish Driving Theory Test</p>
-        <div class="footer__badges">
-          <a href="https://play.google.com/store/apps/details?id=com.app.dttireland&pli=1" target="_blank" rel="noopener"><img src="../assets/img/google-play-badge.svg" alt="Google Play"></a>
-          <a href="https://appgallery.huawei.com/app/C117270185" target="_blank" rel="noopener"><img src="../assets/img/appgallery-badge.svg" alt="AppGallery"></a>
-          <a href="../assets/app-release.apk" download="dtt-ireland.apk"><img src="../assets/img/direct-apk-badge.svg" alt="Download APK"></a>
-        </div>
-      </div>
-      <div class="footer__links">
-        <div class="footer__col"><h4 class="footer__col-title">App</h4><ul><li><a href="../features.html">Features</a></li><li><a href="../download.html">Download</a></li><li><a href="../languages.html">Languages</a></li><li><a href="../faq.html">FAQ</a></li></ul></div>
-        <div class="footer__col"><h4 class="footer__col-title">Company</h4><ul><li><a href="../about.html">About</a></li><li><a href="../blog.html">Blog</a></li><li><a href="../resources.html">Useful links</a></li><li><a href="mailto:blue0orbit@gmail.com">Contact</a></li></ul></div>
-        <div class="footer__col"><h4 class="footer__col-title">Legal</h4><ul><li><a href="../privacy-policy.html">Privacy Policy</a></li><li><a href="../terms-of-service.html">Terms of Service</a></li><li><a href="../data-deletion.html">Data Deletion</a></li></ul></div>
-      </div>
-    </div>
-    <div class="footer__bottom"><div class="container"><p>&copy; 2026 DTT Ireland. Independent app — not affiliated with the Road Safety Authority (RSA).</p></div></div>
-  </footer>
+  <footer class="site-footer"><div class="container footer-top"><div><a class="site-brand" href="../index.html"><span aria-hidden="true">✓</span>DTT<span class="brand-light">Ireland</span></a><p>Build your knowledge.<br>Take your next step with confidence.</p><a class="footer-store" href="https://play.google.com/store/apps/details?id=com.app.dttireland">Get the Android app ↗</a></div><div><h2>Explore the app</h2><a href="../features.html">Features</a><a href="../motorcycle.html">Motorcycle practice</a><a href="../languages.html">Study languages</a><a href="../webapp.html">Web app</a><a href="../download.html">Download</a></div><div><h2>For learners</h2><a href="../blog.html">All guides</a><a href="../resources.html">Official services &amp; useful links</a><a href="../blog/ibt-motorcycle-training-ireland.html">IBT training guide</a><a href="../faq.html">Frequently asked questions</a><a href="../about.html">About DTT Ireland</a></div><div><h2>Support &amp; legal</h2><a href="mailto:blue0orbit@gmail.com">Contact us</a><a href="../privacy-policy.html">Privacy policy</a><a href="../terms-of-service.html">Terms of service</a><a href="../data-deletion.html">Account deletion</a></div></div><div class="container footer-bottom">© 2026 DTT Ireland. Independent study app. Not affiliated with the RSA, NDLS or Prometric.</div></footer>
 
   <!-- Schema.org Markup -->
   <script type="application/ld+json">
@@ -985,5 +953,5 @@
     ]
   }
   </script>
-</body>
+<script src="../assets/js/site.js?v=20260928-v2" defer></script></body>
 </html>
