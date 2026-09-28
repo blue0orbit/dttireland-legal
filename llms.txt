@@ -1,55 +1,26 @@
 # DTT Ireland
-> Irish Driving Theory Test preparation app for Android
+> Independent Android study app for the Irish driving theory test, with Car and Motorcycle study paths.
 
-DTT Ireland is a free Android app that helps people in Ireland pass the official RSA driving theory test. It contains 805 real RSA questions from the official question bank, full mock exams in the exact RSA format (40 questions, 45-minute time limit, 87.5% pass mark), immersive 60fps physics-based driving scenario simulations, and a smart spaced-repetition study mode. Available in 9 languages, including Arabic and Urdu with full right-to-left rendering. Free to download on Google Play and Huawei AppGallery, with an optional one-time Pro purchase (see in-app pricing) to remove ads. No subscription.
+DTT Ireland supports English, Irish, Polish, Portuguese, Ukrainian, Arabic, Urdu, Romanian and Simplified Chinese. Motorcycle practice and Simplified Chinese are available in the latest Android release. The app is free to download; Pro Car, Pro Motorcycle and Pro Both are available in the app. Consult the purchase screen for current prices and included features. Existing Car access does not automatically include Motorcycle.
 
-## Key Pages
+DTT Ireland is not affiliated with the RSA, NDLS or Prometric. It does not book official tests or replace IBT. App study languages are not a statement of which languages are offered at an official test. Official services linked in the guides are authoritative for requirements and bookings.
 
-- [Home](https://dttireland.com/) — Overview, features summary, and download links
-- [Features](https://dttireland.com/features.html) — Full feature breakdown: 805 questions, mock exams, driving scenarios, smart study, achievements
-- [Languages](https://dttireland.com/languages.html) — 8 supported languages with details
-- [Download](https://dttireland.com/download.html) — Download links for Google Play and Huawei AppGallery
-- [FAQ](https://dttireland.com/faq.html) — Answers to common questions about the Irish theory test and the app
-- [About](https://dttireland.com/about.html) — Background on the independent Irish developer
+## App information
+- [Home](https://dttireland.com/): app overview.
+- [Motorcycle](https://dttireland.com/motorcycle.html): motorcycle study path and Pro choices.
+- [Features](https://dttireland.com/features.html): practice and revision features.
+- [Languages](https://dttireland.com/languages.html): nine supported study languages.
+- [Download](https://dttireland.com/download.html): app download options.
+- [FAQ](https://dttireland.com/faq.html): common product questions.
+- [About](https://dttireland.com/about.html): publisher information and contact.
 
-## App Details
+## Learner resources
+- [Useful links](https://dttireland.com/resources.html): official theory booking, NDLS, RSA and training services.
+- [All guides](https://dttireland.com/blog.html): learner articles.
+- [IBT in Ireland](https://dttireland.com/blog/ibt-motorcycle-training-ireland.html): modules, instructor selection and preparation.
+- [Motorcycle theory](https://dttireland.com/blog/motorcycle-theory-test-ireland-getting-started.html): revision and next steps.
+- [Chinese study guide](https://dttireland.com/blog/irish-theory-test-chinese-study-guide.html): bilingual study advice and official language-support distinction.
+- [November 2026 permit changes](https://dttireland.com/blog/learner-permit-renewal-rules-november-2026.html): dated guidance with official sources.
 
-- Platform: Android (Google Play, Huawei AppGallery)
-- Category: Education — Driving Theory Test
-- Price: Free download; one-time optional €1.99 Premium (no subscription)
-- Questions: 805 official RSA questions across 8 exam categories
-- Mock Exam Format: 40 questions, 45-minute time limit, pass mark 87.5%
-- Unique Feature: 60fps physics-based driving scenario simulation
-- Languages: English (Ireland), Irish (Gaeilge), Polish, Portuguese, Ukrainian, Arabic, Urdu, Romanian
-- Country of use: Ireland
-- Developer: blue0orbit — independent developer based in Dublin, Ireland
-- Contact: blue0orbit@gmail.com
-- Not affiliated with the Road Safety Authority (RSA)
-
-## Frequently Asked Questions
-
-**Is DTT Ireland free?**
-Yes. DTT Ireland is free to download. The free version includes ads. An optional one-time Pro purchase (see in-app pricing) removes all ads — no subscription ever.
-
-**What questions are included?**
-All 805 questions from the official RSA question bank, across 8 categories, each with detailed explanations.
-
-**What is the pass mark for the Irish driving theory test?**
-You must answer at least 35 out of 40 questions correctly (87.5%) to pass the real RSA test. DTT Ireland's mock exam uses the same pass threshold.
-
-**What languages is the app available in?**
-English (IE), Irish (Gaeilge), Polish, Portuguese, Ukrainian, Arabic, Urdu, and Romanian. Arabic and Urdu include full RTL text rendering.
-
-**Is this app affiliated with the RSA?**
-No. DTT Ireland is independently developed. Questions are sourced from the official RSA question bank.
-
-## September 2026 update
-Motorcycle practice and Simplified Chinese are available in the latest Android app.
-Official booking links: https://dttireland.com/resources.html
-Motorcycle: https://dttireland.com/motorcycle.html
-Guide: https://dttireland.com/blog/learner-permit-renewal-rules-november-2026.html
-Guide: https://dttireland.com/blog/motorcycle-theory-test-ireland-getting-started.html
-Guide: https://dttireland.com/blog/irish-theory-test-chinese-study-guide.html
-
-IBT training guide: https://dttireland.com/blog/ibt-motorcycle-training-ireland.html
-The learner guides include source links and review dates. Study routines are suggestions, not official requirements.
+This optional text index summarises public pages; it is not an alternative to them. For changing requirements, follow the official source links and review dates on the relevant guide.
+Contact: blue0orbit@gmail.com
