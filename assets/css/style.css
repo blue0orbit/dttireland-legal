@@ -1370,3 +1370,10 @@ button { border: none; background: none; cursor: pointer; font: inherit; }
   color: var(--primary);
   font-weight: 600;
 }
+
+/* Learner guides and product updates */
+.update-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:1.25rem;margin:1.5rem 0}
+.update-card{display:block;padding:1.5rem;background:var(--surface,#fff);border:1px solid var(--border,#d9e5dd);border-radius:18px;color:var(--text-primary,#17231b)}
+.update-card h3,.update-card h2{font-size:1.25rem;margin:.5rem 0}.update-card p{line-height:1.7;margin:.75rem 0}.update-card:hover{border-color:var(--primary,#006c38)}
+.update-label{font-size:.85rem;font-weight:600;color:var(--primary,#006c38)}.guide-content{max-width:820px;padding-top:2rem;padding-bottom:3rem;line-height:1.85}.guide-content h2{font-size:1.5rem;margin:2rem 0 .75rem}.guide-content p{margin:1rem 0}.guide-content ul,.guide-content ol{padding-left:1.5rem;margin:1rem 0;list-style:revert}.guide-content a:not(.btn),.guide-note a{color:var(--primary,#006c38);text-decoration:underline}.guide-note{padding:1.5rem;background:var(--primary-light,#edf7f0);border-radius:14px;margin:2rem 0}.update-card:focus-visible{outline:3px solid var(--primary,#006c38);outline-offset:4px}
+@media(min-width:768px) and (max-width:1100px){.nav__links:not(.open){display:none}.nav__toggle{display:flex}.nav__links.open{display:flex}}
