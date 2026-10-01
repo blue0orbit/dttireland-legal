@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url><loc>https://dttireland.com/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
   <url><loc>https://dttireland.com/features.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://dttireland.com/languages.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
@@ -22,4 +22,566 @@
 <url><loc>https://dttireland.com/blog/learner-permit-renewal-rules-november-2026.html</loc><lastmod>2026-09-28</lastmod></url>
 <url><loc>https://dttireland.com/blog/motorcycle-theory-test-ireland-getting-started.html</loc><lastmod>2026-09-28</lastmod></url>
 <url><loc>https://dttireland.com/blog/irish-theory-test-chinese-study-guide.html</loc><lastmod>2026-09-28</lastmod></url>
-<url><loc>https://dttireland.com/blog/ibt-motorcycle-training-ireland.html</loc><lastmod>2026-09-28</lastmod></url></urlset>
+<url><loc>https://dttireland.com/blog/ibt-motorcycle-training-ireland.html</loc><lastmod>2026-09-28</lastmod></url>  <!-- i18n:start -->
+  <url>
+    <loc>https://dttireland.com/ga/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/pl/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/pt/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/ro/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/uk/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/zh/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/ar/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/ur/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/ga/features.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/features.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/features.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/features.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/features.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/features.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/features.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/pl/features.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/features.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/features.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/features.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/features.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/features.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/features.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/pt/features.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/features.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/features.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/features.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/features.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/features.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/features.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/ro/features.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/features.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/features.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/features.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/features.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/features.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/features.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/uk/features.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/features.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/features.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/features.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/features.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/features.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/features.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/zh/features.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/features.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/features.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/features.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/features.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/features.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/features.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/ar/features.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/features.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/features.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/features.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/features.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/features.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/features.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/ur/features.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/features.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/features.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/features.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/features.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/features.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/features.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/features.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/ga/motorcycle.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/motorcycle.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/pl/motorcycle.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/motorcycle.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/pt/motorcycle.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/motorcycle.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/ro/motorcycle.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/motorcycle.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/uk/motorcycle.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/motorcycle.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/zh/motorcycle.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/motorcycle.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/ar/motorcycle.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/motorcycle.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/ur/motorcycle.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/motorcycle.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/motorcycle.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/ga/faq.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/faq.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/pl/faq.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/faq.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/pt/faq.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/faq.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/ro/faq.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/faq.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/uk/faq.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/faq.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/zh/faq.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/faq.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/ar/faq.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/faq.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/ur/faq.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/faq.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/ga/download.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/download.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/download.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/download.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/download.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/download.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/download.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/pl/download.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/download.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/download.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/download.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/download.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/download.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/download.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/pt/download.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/download.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/download.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/download.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/download.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/download.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/download.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/ro/download.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/download.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/download.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/download.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/download.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/download.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/download.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/uk/download.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/download.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/download.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/download.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/download.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/download.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/download.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/zh/download.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/download.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/download.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/download.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/download.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/download.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/download.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/ar/download.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/download.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/download.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/download.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/download.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/download.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/download.html"/>
+  </url>
+  <url>
+    <loc>https://dttireland.com/ur/download.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dttireland.com/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://dttireland.com/ga/download.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://dttireland.com/pl/download.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://dttireland.com/pt/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://dttireland.com/ro/download.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://dttireland.com/uk/download.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dttireland.com/zh/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://dttireland.com/ar/download.html"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://dttireland.com/ur/download.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dttireland.com/download.html"/>
+  </url>
+  <!-- i18n:end -->
+</urlset>

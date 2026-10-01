@@ -26,6 +26,50 @@
   var script = document.currentScript;
   var privacyUrl = script ? new URL('../../privacy-policy.html', script.src).href : '/privacy-policy.html';
 
+  // The notice speaks the page's language (<html lang>); English is the fallback.
+  var COPY = {
+    en: { text: 'We would like to use Google Analytics cookies to see how this website is used. They are only set ' +
+            'if you accept, and you can change your mind at any time with Cookie settings at the bottom of the page.',
+          privacy: 'Privacy policy', reject: 'Reject', accept: 'Accept', settings: 'Cookie settings', region: 'Cookie consent' },
+    ga: { text: 'Ba mhaith linn fianáin Google Analytics a úsáid chun a fheiceáil conas a úsáidtear an suíomh gréasáin seo. ' +
+            'Ní shocraítear iad ach amháin má ghlacann tú leo, agus is féidir leat d’intinn a athrú am ar bith le Socruithe fianán ' +
+            'ag bun an leathanaigh.',
+          privacy: 'Polasaí príobháideachais', reject: 'Diúltaigh', accept: 'Glac leis', settings: 'Socruithe fianán',
+          region: 'Toiliú le fianáin' },
+    pl: { text: 'Chcielibyśmy używać plików cookie Google Analytics, aby sprawdzać, jak korzysta się z tej strony internetowej. ' +
+            'Są one zapisywane tylko wtedy, gdy je zaakceptujesz, a zdanie możesz zmienić w dowolnym momencie w Ustawieniach ' +
+            'plików cookie na dole strony.',
+          privacy: 'Polityka prywatności', reject: 'Odrzuć', accept: 'Akceptuj', settings: 'Ustawienia plików cookie',
+          region: 'Zgoda na pliki cookie' },
+    pt: { text: 'Gostaríamos de usar cookies do Google Analytics para ver como este site é utilizado. Eles só são definidos ' +
+            'se você aceitar, e você pode mudar de ideia a qualquer momento em Configurações de cookies, na parte inferior da página.',
+          privacy: 'Política de privacidade', reject: 'Rejeitar', accept: 'Aceitar', settings: 'Configurações de cookies',
+          region: 'Consentimento de cookies' },
+    ro: { text: 'Am dori să folosim cookie-uri Google Analytics pentru a vedea cum este utilizat acest site. Acestea sunt plasate ' +
+            'numai dacă accepți, iar oricând te poți răzgândi din Setări cookie-uri, în partea de jos a paginii.',
+          privacy: 'Politica de confidențialitate', reject: 'Respinge', accept: 'Acceptă', settings: 'Setări cookie-uri',
+          region: 'Consimțământ pentru cookie-uri' },
+    uk: { text: 'Ми хотіли б використовувати файли cookie Google Analytics, щоб бачити, як користуються цим сайтом. ' +
+            'Вони встановлюються, лише якщо ви їх приймете, і ви будь-коли можете передумати через «Налаштування файлів cookie» ' +
+            'внизу сторінки.',
+          privacy: 'Політика конфіденційності', reject: 'Відхилити', accept: 'Прийняти', settings: 'Налаштування файлів cookie',
+          region: 'Згода на файли cookie' },
+    zh: { text: '我们希望使用 Google Analytics Cookie 来了解本网站的使用情况。只有在您接受的情况下才会设置这些 Cookie，' +
+            '而且您可以随时通过页面底部的“Cookie 设置”改变主意。',
+          privacy: '隐私政策', reject: '拒绝', accept: '接受', settings: 'Cookie 设置', region: 'Cookie 使用同意' },
+    ar: { text: 'نودّ استخدام ملفات تعريف الارتباط الخاصة بـ Google Analytics لمعرفة كيف يُستخدم هذا الموقع. ' +
+            'ولا تُوضع هذه الملفات إلا إذا قبلتها، ويمكنك تغيير رأيك في أي وقت من خلال «إعدادات ملفات تعريف الارتباط» في أسفل الصفحة.',
+          privacy: 'سياسة الخصوصية', reject: 'رفض', accept: 'قبول', settings: 'إعدادات ملفات تعريف الارتباط',
+          region: 'الموافقة على ملفات تعريف الارتباط' },
+    ur: { text: 'ہم Google Analytics کی کوکیز استعمال کرنا چاہیں گے تاکہ دیکھ سکیں کہ اس ویب سائٹ کو کس طرح استعمال کیا جاتا ہے۔ ' +
+            'یہ کوکیز صرف اسی صورت میں محفوظ کی جاتی ہیں جب آپ انہیں قبول کریں، اور آپ کسی بھی وقت صفحے کے نیچے موجود ' +
+            'کوکیز کی ترتیبات کے ذریعے اپنا فیصلہ تبدیل کر سکتے ہیں۔',
+          privacy: 'پرائیویسی پالیسی', reject: 'مسترد کریں', accept: 'قبول کریں', settings: 'کوکیز کی ترتیبات',
+          region: 'کوکیز کے لیے رضامندی' }
+  };
+  var lang = (document.documentElement.lang || 'en').toLowerCase().split('-')[0];
+  var copy = COPY[lang] || COPY.en;
+
   var analytics = null; // { module, instance } once loaded
   var loading = false;
   var banner = null;
@@ -100,15 +144,24 @@
     banner = document.createElement('div');
     banner.className = 'dtt-consent';
     banner.setAttribute('role', 'region');
-    banner.setAttribute('aria-label', 'Cookie consent');
-    banner.innerHTML =
-      '<p>We would like to use Google Analytics cookies to see how this website is used. They are only set ' +
-      'if you accept, and you can change your mind at any time with Cookie settings at the bottom of the page. ' +
-      '<a href="' + privacyUrl + '">Privacy policy</a></p>' +
-      '<div class="dtt-consent__actions">' +
-      '<button type="button" data-choice="denied">Reject</button>' +
-      '<button type="button" data-choice="granted">Accept</button>' +
-      '</div>';
+    banner.setAttribute('aria-label', copy.region);
+    var paragraph = document.createElement('p');
+    paragraph.textContent = copy.text + ' ';
+    var policy = document.createElement('a');
+    policy.href = privacyUrl;
+    policy.textContent = copy.privacy;
+    paragraph.appendChild(policy);
+    var actions = document.createElement('div');
+    actions.className = 'dtt-consent__actions';
+    [['denied', copy.reject], ['granted', copy.accept]].forEach(function (choice) {
+      var button = document.createElement('button');
+      button.type = 'button';
+      button.setAttribute('data-choice', choice[0]);
+      button.textContent = choice[1];
+      actions.appendChild(button);
+    });
+    banner.appendChild(paragraph);
+    banner.appendChild(actions);
     banner.addEventListener('click', function (event) {
       var button = event.target.closest('button[data-choice]');
       if (button) choose(button.getAttribute('data-choice'));
@@ -127,7 +180,7 @@
     link.id = 'dttCookieSettings';
     link.href = '#cookie-settings';
     link.setAttribute('role', 'button');
-    link.textContent = 'Cookie settings';
+    link.textContent = copy.settings;
     link.addEventListener('click', function (event) { event.preventDefault(); showBanner(); });
     deletion.insertAdjacentElement('afterend', link);
   }

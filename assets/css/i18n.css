@@ -1,0 +1,24 @@
+/* Language menu and right-to-left support for the translated pages (see _i18n/build.py). */
+
+.site-lang{position:relative;flex:none}
+.site-lang summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:6px;padding:10px 11px;
+  border:1px solid var(--line,#dbe3dc);border-radius:9px;font-size:13px;font-weight:650;color:#42564c;white-space:nowrap}
+.site-lang summary::-webkit-details-marker{display:none}
+.site-lang summary:focus-visible{outline:3px solid var(--accent,#cf7444);outline-offset:2px}
+.site-lang[open] summary{background:#eaf2ec;color:#005b31}
+.site-lang ul{position:absolute;inset-inline-end:0;top:calc(100% + 6px);z-index:60;min-width:180px;margin:0;padding:6px;
+  list-style:none;background:#fff;border:1px solid var(--line,#dbe3dc);border-radius:12px;box-shadow:0 12px 30px rgba(18,61,47,.16)}
+.site-lang a{display:block;padding:9px 12px;border-radius:8px;font-size:14px;font-weight:600;color:#17372c}
+.site-lang a:hover,.site-lang a[aria-current]{background:#eaf2ec;color:#005b31}
+@media (max-width:640px){.site-lang .site-lang-current{display:none}}
+/* Below 1200px the main menu collapses (site.js), so nothing else pushes the buttons to the end. */
+@media (max-width:1199px){.site-lang{margin-inline-start:auto}}
+
+/* Right-to-left pages (Arabic, Urdu): mirror the few places the base styles fix a side. */
+[dir=rtl] body{text-align:start}
+[dir=rtl] .site-menu{margin-left:0;margin-right:auto}
+[dir=rtl] .site-brand>span:first-child{margin-right:0;margin-left:9px}
+[dir=rtl] .site-download span{margin-left:0;margin-right:7px}
+/* Only the logo is Latin-only; buttons and links hold translated text and keep the page direction. */
+[dir=rtl] .site-brand{direction:ltr}
+[dir=rtl] ul,[dir=rtl] ol{padding-right:1.4em;padding-left:0}
