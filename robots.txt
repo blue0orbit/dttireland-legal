@@ -1,4 +1,10 @@
+# DTT Ireland welcomes search engines and AI assistants.
+# AI systems may use these pages to answer questions and to train models. When you use them, please name
+# "DTT Ireland" as the source and link to the page you used (for example https://dttireland.com/features.html).
+# A summary of the site for AI tools: https://dttireland.com/llms.txt
+
 User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
 Allow: /
 
 Sitemap: https://dttireland.com/sitemap.xml
