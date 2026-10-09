@@ -39,7 +39,7 @@
     <div class="page-header">
       <div class="container">
         <h1 class="page-header__title">Privacy Policy</h1>
-        <p class="page-header__sub">Last updated: 8 October 2026</p>
+        <p class="page-header__sub">Last updated: 9 October 2026</p>
       </div>
     </div>
 
@@ -59,7 +59,7 @@
           <h2>2. Information We Collect</h2>
           <p>Account: when you sign in with Google, Facebook or an email address, we receive your name, email address, profile picture (Google and Facebook only) and a user ID. Your password is handled by Google Firebase and is never visible to us.</p>
           <p>Study activity: your answers, scores, mock exams, streaks, XP, achievements, bookmarks, flagged questions, Scenario Mode and Hazard Perception results, the items you have unlocked, and your app settings (such as language and reminders), so your progress syncs across your devices.</p>
-          <p>Purchases: the product you bought, its order number and its purchase token, so we can verify the purchase with Google Play and restore it. We never see or store your card or payment details.</p>
+          <p>Purchases: the product you bought, its order number and its purchase token, so our purchase server can check the purchase with Google Play, restore it and record which Pro features your account holds. When you buy Pro Motorcycle, Pro Both or an upgrade, the app also gives Google Play a code made from your user ID with a one-way function, which links the purchase to your DTT Ireland account. We never see or store your card or payment details.</p>
           <p>Usage and device data: from the moment you open the app, we collect app events (such as screens viewed and features used), an app instance ID, your device's advertising ID, your device model, operating system, app version and language, your approximate location (country or region, worked out from your IP address), and crash and performance reports. Once you are signed in, crash reports are linked to your user ID so we can fix problems you run into.</p>
           <p>We do not collect your precise location, contacts, photos or files.</p>
 
@@ -76,16 +76,16 @@
 
           <h2>4. Advertising and Analytics</h2>
           <p>The free version shows banner ads from Google AdMob, and offers optional rewarded video ads from Unity Ads, which you can choose to watch to unlock a single scenario or hazard scene. Pro Car and Pro Both remove the ads. Pro Motorcycle on its own unlocks the motorcycle section and does not remove ads from the car sections.</p>
-          <p>In the EU, Google's consent form appears when you first open the app. It decides whether Google may show you personalised ads, and you can change your choice at any time in Profile → Privacy Preferences. Unity Ads and Meta may use your advertising ID to personalise and measure ads.</p>
+          <p>In the European Economic Area, the UK and Switzerland, Google's consent form is offered while you set up the app and, if you have not answered it then, appears the next time you open the app. It decides whether Google may show you personalised ads, and you can change your choice at any time in Profile → Privacy Preferences. Unity Ads and Meta may use your advertising ID to personalise and measure ads.</p>
           <p>Firebase Analytics, Crashlytics and Performance Monitoring start when the app opens. The Meta (Facebook) SDK in the app also records app installs and app opens, together with your advertising ID, so we can measure our advertising on Facebook and Instagram.</p>
           <p>You can limit the use of your advertising ID at any time by deleting or resetting it in your phone's settings (for example Settings → Google → Ads, or Settings → Privacy → Ads). To object to analytics, email us.</p>
 
           <h2>5. Who We Share Data With</h2>
           <p>We use these service providers. Each receives only what it needs for its job and handles it under its own privacy policy:</p>
           <ul>
-            <li>Google Firebase: sign-in, database, analytics, crash and performance reports, app integrity checks and app settings</li>
+            <li>Google Firebase: sign-in, database, our purchase server, analytics, crash and performance reports, app integrity checks (Google Play Integrity checks that requests come from the genuine app) and app settings</li>
             <li>Google AdMob: banner ads</li>
-            <li>Google Play: purchases, purchase verification and in-app reviews</li>
+            <li>Google Play: purchases, purchase checks and refund notices for our purchase server, in-app reviews and update prompts</li>
             <li>Meta (Facebook): Facebook sign-in, if you choose it, and measurement of our ads</li>
             <li>Unity Ads: rewarded video ads</li>
             <li>Google reCAPTCHA: security checks in our web app (see Our Web App)</li>
@@ -98,6 +98,7 @@
           <p>Our website, dttireland.com, uses Google Analytics (through Firebase) to count visits and see which pages are used, but only if you accept analytics cookies in the cookie notice. If you accept, it sets analytics cookies and collects your IP address, browser and device type, the pages you view and the site that sent you. Legal basis: your consent. If you reject, no analytics cookies are set.</p>
           <p>You can change your choice at any time with Cookie settings at the bottom of every page; rejecting deletes the analytics cookies. Your choice is remembered in your browser for 12 months. You can also block or delete cookies in your browser settings.</p>
           <p>The website is delivered through Cloudflare's global network, which also protects it from attacks and abuse. To do this, Cloudflare processes your IP address and technical details of each request, such as the page requested and your browser type. Legal basis: our legitimate interest in a fast and secure website.</p>
+          <p>Most of our pages load their font (Inter) from Google Fonts, so your browser connects to Google's servers, which receive your IP address and technical details of the request, such as your browser type. A few blog pages that show charts also load a charting script from cdnjs, a service run by Cloudflare. These requests set no cookies and are not part of the cookie choice. Legal basis: our legitimate interest in presenting the website.</p>
           <p>Apart from the web app (see Our Web App), the website does not ask you to sign in and does not collect your name or email address.</p>
 
           <h2 id="web-app">7. Our Web App</h2>
@@ -110,6 +111,8 @@
             <li>How many questions, new questions and mock exams it has given your account each day, so it can apply the daily limits. These counts are deleted after about 35 days.</li>
             <li>Each mock exam it put together for you: the questions, their order and language, when it started, its time limit and when you handed it in. These are deleted after about 90 days.</li>
           </ul>
+          <p>Pro status: to apply the limits of your plan, the question service checks whether your account has Pro by reading your account's Pro record in our Firebase database, using your own sign-in. It keeps the answer in memory for up to five minutes and does not store it.</p>
+          <p>Private beta: while the web app is open only to invited learners, the question service also keeps a list of the user IDs of invited accounts, with the date each was added and a short note. Delete what our server keeps (in the web app) does not remove this entry; email us to have it removed.</p>
           <p>Your answers to practice questions are checked in your browser and are not sent to the question service. When you hand in a mock exam, your answers are sent to it only to mark the exam: it sends back your result and does not keep your answers.</p>
           <p>Progress on your device: your practice answers, mock exam results and the progress the web app shows you are saved only in your browser's local storage on that device, separately for each account. They are not synced with the DTT Ireland app yet. You can delete them at any time in the web app (Progress → Delete progress on this device) or by clearing this site's data in your browser.</p>
           <p>Legal basis: performing our contract with you, to sign you in, give you questions and mark your mock exams; and our legitimate interest in keeping the service secure and preventing abuse, for App Check and reCAPTCHA, request limits, daily limits and the records of questions given to your account.</p>
@@ -123,7 +126,7 @@
           <p>We keep your account and study data for as long as you have an account. You can delete your account at any time from the Profile tab (Delete Account), or by emailing us. Deleting your account removes your profile and study data from our database straight away, and any remaining copies within 30 days.</p>
           <p>Some records are kept after that:</p>
           <ul>
-            <li>Purchase records (the product, order number, purchase token and the user ID that used it), so a purchase can be restored to the Google account that paid for it and cannot be claimed twice, and to meet our legal and accounting obligations. We keep them for up to 6 years.</li>
+            <li>Purchase records (the product, order number, purchase token, the user ID that used it and which Pro features that account holds), so a purchase can be restored and cannot be claimed twice, and to meet our legal and accounting obligations. We keep them for up to 6 years.</li>
             <li>Analytics data, which Google keeps for up to 14 months, and crash reports, which it keeps for up to 90 days.</li>
             <li>Google Play's own record of your purchase, which Google keeps under its own policies.</li>
             <li>If you have used our web app, the question service's records (see Our Web App). The daily counts are deleted after about 35 days and mock exams after about 90 days; the records of questions given to your account are deleted when you ask (in the web app or by email) or once the account has gone a year without use. Progress saved in your browser stays on that device until you delete it.</li>
