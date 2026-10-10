@@ -1,0 +1,39 @@
+Store badges on dttireland.com: where they come from
+====================================================
+
+Google Play ("Get it on Google Play"), fetched 10 Oct 2026 from Google's official badge files
+(play.google.com/intl/en_us/badges, which now redirects to Google's Partner Marketing Hub).
+Only the transparent margin around each badge was trimmed; every badge pixel is unchanged
+(checked pixel by pixel against Google's file).
+
+google-play-en.png     564x168  https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png
+                                original sha256 f72611e2df8e88204009fd896d05d5e8e83c77009c63943bbffa169559934849
+google-play-pl.png     646x192  https://play.google.com/intl/en_us/badges/static/images/badges/pl_badge_web_generic.png
+                                original sha256 1f9bdbc721ff7e50112b9657022150cd608b1cc4dd7782876ef885d823f1c420
+google-play-pt-br.png  646x192  https://play.google.com/intl/en_us/badges/static/images/badges/pt-br_badge_web_generic.png
+                                original sha256 e1ad5e03f636d94b05448c1f156e39b012b9e1d772b730d9e27d066695531a6b
+google-play-ro.png     646x192  https://play.google.com/intl/en_us/badges/static/images/badges/ro_badge_web_generic.png
+                                original sha256 4cace444bbd4a52261c0dcee72117dc42d3a9a83cb4b5db693bb051ec8fe653d
+google-play-uk.png     646x192  https://play.google.com/intl/en_us/badges/static/images/badges/ua_badge_web_generic.png
+                                original sha256 64da6d7f312a1fe0efa7d63043c0853eea27000b61cf134e34adb4235ff6b813
+google-play-zh-cn.png  646x192  https://play.google.com/intl/en_us/badges/static/images/badges/zh-cn_badge_web_generic.png
+                                original sha256 e1522865b98e6969d1af792f0878df36fc09b81d68f043236eb3db462e0a6a68
+
+Language pages: pl, pt (Brazilian), ro, uk and zh use their own badge (_i18n/build.py PLAY_BADGE).
+ga, ar and ur use the English badge: Google has no Irish badge file, and its public Arabic and
+Urdu files still show the old (pre-2022) Google Play logo, which Google's rules say not to use.
+The current Arabic and Urdu badges are only on the Partner Marketing Hub, behind an agreement
+the owner must accept himself:
+https://partnermarketinghub.withgoogle.com/brands/google-play/google-play/lockups-icons-badges/?folder=86641
+
+Google's rules followed (Partner Marketing Hub, read 10 Oct 2026): at least 28 px high on screen
+(we show 52 px); clear space of a quarter of the badge height (13 px) around it; no change to
+colour, elements or proportions; the Google Play badge the same size as or larger than other store
+badges. Pages that show it carry the line "Google Play and the Google Play logo are trademarks of
+Google LLC."
+
+Huawei AppGallery: appgallery-badge.svg in assets/img is still our own drawing of the badge.
+Huawei's official badge can only be downloaded after signing in to AppGallery Connect
+(All services > Distribute > AppGallery Download > Badge links > "Download badges of all languages",
+https://developer.huawei.com/consumer/en/doc/appgallery-connect-guides/agdlink-getlink-agc-0000001164321881).
+Replace it with the official file once the owner has downloaded it.

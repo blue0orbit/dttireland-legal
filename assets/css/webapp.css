@@ -112,7 +112,7 @@
 .wa-final{background:var(--wa-green);color:#fff;border-radius:28px;padding:48px;display:grid;grid-template-columns:1.3fr auto;gap:28px;align-items:center;margin-bottom:24px}
 .wa-final h2{color:#fff;margin:0 0 8px}
 .wa-final p{margin:0;color:#e3f4ea}
-.wa-badges{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.wa-badges{display:flex;gap:14px;flex-wrap:wrap;margin-top:16px}
 
 @media (max-width:980px){
   .wa-hero-grid,.wa-plans,.wa-compare,.wa-final{grid-template-columns:1fr}

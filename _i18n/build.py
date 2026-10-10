@@ -2,7 +2,8 @@
 
     python _i18n/build.py prepare        # English pages: switcher + hreflang; language skeletons
     python _i18n/build.py sitemap        # sitemap.xml with every language version
-    python _i18n/build.py applinks       # translated pages: links to the web app carry ?lang=<code>
+    python _i18n/build.py applinks       # translated pages: links to the web app carry ?lang=<code>,
+                                         # and the Google Play badge is the one in their language
 
 The English page stays the source. `prepare` writes, for each language, a skeleton of each translated
 page into _i18n/skeleton/<lang>/ (paths, canonical, hreflang, lang/dir and structured data already
@@ -37,6 +38,11 @@ LANGS = {
 }
 # A link to the web study app (/app/, optionally absolute, with a language hint already or a #route).
 APP_LINK = re.compile(r'\bhref="((?:https://dttireland\.com)?/app/)(?:\?lang=[^"#&]*)?(#[^"]*)?"')
+# Google's official "Get it on Google Play" badge in the page's language (assets/img/badges/SOURCES.txt).
+# ga, ar and ur keep the English badge: no Irish badge exists, and Google's public Arabic and Urdu
+# files still carry the old logo.
+PLAY_BADGE = {"pl": "pl", "pt": "pt-br", "ro": "ro", "uk": "uk", "zh": "zh-cn"}
+BADGE_SRC = re.compile(r'(assets/img/badges/google-play-)[a-z-]+(\.png)')
 CSS_LINK = '<link rel="stylesheet" href="/assets/css/i18n.css?v=20261001-2">'
 START, END = "<!-- i18n:start -->", "<!-- i18n:end -->"
 
@@ -76,6 +82,11 @@ def switcher(page, lang):
 def app_links(html, lang):
     """Every link to the web app on a page in `lang` opens the app in that language."""
     return APP_LINK.sub(lambda m: f'href="{m.group(1)}?lang={lang}{m.group(2) or ""}"', html)
+
+
+def store_badges(html, lang):
+    """The Google Play badge on a page in `lang` is Google's badge for that language, else English."""
+    return BADGE_SRC.sub(lambda m: m.group(1) + PLAY_BADGE.get(lang, "en") + m.group(2), html)
 
 
 def strip_blocks(html):
@@ -154,7 +165,7 @@ def localise(html, page, lang):
         block = localise_ld(m.group(1), page, lang)
         return "" if block is None else f'<script type="application/ld+json">\n{block}\n</script>'
     html = re.sub(r'<script type="application/ld\+json">(.*?)</script>', ld, html, flags=re.S)
-    return app_links(with_i18n(html, page, lang), lang)
+    return store_badges(app_links(with_i18n(html, page, lang), lang), lang)
 
 
 def prepare():
@@ -183,7 +194,8 @@ def prepare():
 
 
 def applinks():
-    """The existing translated pages get the same ?lang= on their links to the web app as their skeleton."""
+    """The existing translated pages get the same ?lang= on their links to the web app, and the same
+    store badge, as their skeleton."""
     changed = 0
     for lang in LANGS:
         for page in PAGES:
@@ -191,7 +203,7 @@ def applinks():
             if not os.path.exists(target):
                 continue
             html = open(target, encoding="utf8").read()
-            updated = app_links(html, lang)
+            updated = store_badges(app_links(html, lang), lang)
             if updated != html:
                 open(target, "w", encoding="utf8", newline="").write(updated)
                 changed += 1
