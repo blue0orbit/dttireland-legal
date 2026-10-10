@@ -1,7 +1,7 @@
 # DTT Ireland
 > Independent Android study app for the Irish driving theory test, with Car and Motorcycle study paths.
 
-DTT Ireland supports English, Irish, Polish, Portuguese, Ukrainian, Arabic, Urdu, Romanian and Simplified Chinese. Motorcycle practice and Simplified Chinese are available in the latest Android release. The app is free to download; Pro Car, Pro Motorcycle and Pro Both are available in the app. Consult the purchase screen for current prices and included features. Existing Car access does not automatically include Motorcycle.
+DTT Ireland supports English, Irish, Polish, Portuguese, Ukrainian, Arabic, Urdu, Romanian and Simplified Chinese. Motorcycle practice and Simplified Chinese are available in the latest Android release. The app is free to download; Pro Car, Pro Motorcycle and Pro Both are available in the app. Pro Car (EUR 2.49) and Pro Motorcycle (EUR 3.69) can also be bought in the web app at https://dttireland.com/app/ (sold through Paddle); they unlock there and in the app (1.10.0 or later) on the same account. Pro Both and the upgrades are sold only in the app. Consult the purchase screen for current prices and included features. Existing Car access does not automatically include Motorcycle.
 
 DTT Ireland is not affiliated with the RSA, NDLS or Prometric. It does not book official tests or replace IBT. App study languages are not a statement of which languages are offered at an official test. Official services linked in the guides are authoritative for requirements and bookings.
 
@@ -11,7 +11,7 @@ DTT Ireland is not affiliated with the RSA, NDLS or Prometric. It does not book 
 - [Features](https://dttireland.com/features.html): practice and revision features.
 - [Languages](https://dttireland.com/languages.html): nine supported study languages.
 - [Download](https://dttireland.com/download.html): app download options.
-- [Web app](https://dttireland.com/webapp.html): study car and motorcycle questions in a browser at https://dttireland.com/app/ (free account; Pro bought in the app on Google Play works there too).
+- [Web app](https://dttireland.com/webapp.html): study car and motorcycle questions in a browser at https://dttireland.com/app/ (free account; Pro Car and Pro Motorcycle can be bought there, and Pro bought in the app on Google Play works there too).
 - [FAQ](https://dttireland.com/faq.html): common product questions.
 - [About](https://dttireland.com/about.html): publisher information and contact.
 
