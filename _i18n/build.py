@@ -2,11 +2,17 @@
 
     python _i18n/build.py prepare        # English pages: switcher + hreflang; language skeletons
     python _i18n/build.py sitemap        # sitemap.xml with every language version
+    python _i18n/build.py applinks       # translated pages: links to the web app carry ?lang=<code>
 
 The English page stays the source. `prepare` writes, for each language, a skeleton of each translated
 page into _i18n/skeleton/<lang>/ (paths, canonical, hreflang, lang/dir and structured data already
 localised, words still English) and copies it to <lang>/<page> only when that file does not exist yet,
 so translations are never overwritten. Translators then change words only; check.py proves it.
+
+Links to the web study app on a translated page open it in that page's language: /app/ becomes
+/app/?lang=<code> (the app takes the hint, remembers it and removes it from the address). The skeleton
+carries it, and `prepare` (or `applinks`) puts it into the existing translated pages too. The codes are
+the folder names, which are the app's own (pt = the Brazilian Portuguese of these pages).
 
 Folders starting with "_" are not published by GitHub Pages (Jekyll), so this tool stays private.
 """
@@ -29,6 +35,8 @@ LANGS = {
     "ar": ("ar", "ar", "العربية", True),
     "ur": ("ur", "ur", "اردو", True),
 }
+# A link to the web study app (/app/, optionally absolute, with a language hint already or a #route).
+APP_LINK = re.compile(r'\bhref="((?:https://dttireland\.com)?/app/)(?:\?lang=[^"#&]*)?(#[^"]*)?"')
 CSS_LINK = '<link rel="stylesheet" href="/assets/css/i18n.css?v=20261001-2">'
 START, END = "<!-- i18n:start -->", "<!-- i18n:end -->"
 
@@ -63,6 +71,11 @@ def switcher(page, lang):
         items.append(f'<li><a href="{href(target, k)}" hreflang="{LANGS[k][1]}" lang="{html_lang}"{cur}>{name}</a></li>')
     return (f'{START}<details class="site-lang"><summary><span aria-hidden="true">🌐</span> '
             f'<span class="site-lang-current">{current}</span></summary><ul>{"".join(items)}</ul></details>{END}')
+
+
+def app_links(html, lang):
+    """Every link to the web app on a page in `lang` opens the app in that language."""
+    return APP_LINK.sub(lambda m: f'href="{m.group(1)}?lang={lang}{m.group(2) or ""}"', html)
 
 
 def strip_blocks(html):
@@ -141,7 +154,7 @@ def localise(html, page, lang):
         block = localise_ld(m.group(1), page, lang)
         return "" if block is None else f'<script type="application/ld+json">\n{block}\n</script>'
     html = re.sub(r'<script type="application/ld\+json">(.*?)</script>', ld, html, flags=re.S)
-    return with_i18n(html, page, lang)
+    return app_links(with_i18n(html, page, lang), lang)
 
 
 def prepare():
@@ -166,6 +179,23 @@ def prepare():
                 open(target, "w", encoding="utf8", newline="").write(skeleton)
                 created += 1
     print(f"English pages updated: {len(english)}; language pages created: {created}")
+    applinks()
+
+
+def applinks():
+    """The existing translated pages get the same ?lang= on their links to the web app as their skeleton."""
+    changed = 0
+    for lang in LANGS:
+        for page in PAGES:
+            target = os.path.join(SITE, lang, page)
+            if not os.path.exists(target):
+                continue
+            html = open(target, encoding="utf8").read()
+            updated = app_links(html, lang)
+            if updated != html:
+                open(target, "w", encoding="utf8", newline="").write(updated)
+                changed += 1
+    print(f"translated pages with web app links updated: {changed}")
 
 
 def sitemap():
@@ -187,4 +217,4 @@ def sitemap():
 
 
 if __name__ == "__main__":
-    {"prepare": prepare, "sitemap": sitemap}[sys.argv[1]]()
+    {"prepare": prepare, "sitemap": sitemap, "applinks": applinks}[sys.argv[1]]()
