@@ -1,0 +1,38 @@
+/* "Try the questions" card on the home pages (design phase 3, October 2026).
+   Ireland's question texts are not ours to publish (third-party source, owner decision D1 pending), so the home page
+   shows no question: a card about the web app with a drawing of a question that has no words, and a link to /app/.
+   No script; logical properties, so the same rules serve the Arabic and Urdu pages. */
+.tq-teaser { padding: 56px 0 8px; }
+.tq-card { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 40px; align-items: center; padding: 40px; border: 1px solid var(--border); border-radius: var(--radius-xl); background: var(--primary-light); }
+.tq-eyebrow { margin: 0 0 10px; color: var(--primary); font-size: .85rem; font-weight: 700; letter-spacing: .02em; }
+.tq-title { margin: 0 0 14px; color: var(--text-primary); font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 800; line-height: 1.2; letter-spacing: -.02em; }
+.tq-lead { margin: 0 0 18px; color: var(--text-secondary); font-size: 1.05rem; line-height: 1.7; }
+.tq-points { margin: 0 0 26px; padding: 0; list-style: none; }
+.tq-points li { position: relative; margin: 0 0 8px; padding-inline-start: 28px; color: var(--text-primary); line-height: 1.55; }
+.tq-points li::before { content: "✓"; position: absolute; inset-inline-start: 0; top: 0; color: var(--primary); font-weight: 800; }
+.tq-btn { display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 12px 22px; border-radius: 999px; background: var(--primary); color: #FFFFFF; font-weight: 700; line-height: 1.35; text-decoration: none; transition: background var(--transition); }
+.tq-btn:hover { background: var(--primary-dark); }
+.tq-btn:focus-visible { outline: 3px solid var(--secondary); outline-offset: 3px; }
+/* The drawing: a question card without words (lines, choices A to D, one marked right, an explanation). */
+.tq-art { display: flex; justify-content: center; }
+.tq-art-card { display: flex; flex-direction: column; gap: 10px; width: 100%; max-width: 320px; padding: 22px; border: 1px solid var(--border); border-radius: 18px; background: var(--surface); box-shadow: var(--shadow-md); }
+.tq-art-line { display: block; height: 12px; border-radius: 6px; background: #D5DED8; }
+.tq-art-short { width: 62%; margin-bottom: 6px; }
+.tq-art-opt { display: flex; align-items: center; gap: 10px; min-height: 40px; padding: 8px 12px; border: 2px solid var(--border); border-radius: 10px; }
+.tq-art-key { display: inline-flex; flex: none; align-items: center; justify-content: center; width: 22px; height: 22px; border: 2px solid #8A968E; border-radius: 50%; color: #4B5650; font-size: 11px; font-weight: 800; }
+.tq-art-bar { display: block; flex: 1; height: 9px; border-radius: 5px; background: #E3E8E5; }
+.tq-art-ok { border-color: var(--primary); background: var(--primary-light); }
+.tq-art-ok .tq-art-key { border-color: var(--primary); background: var(--primary); color: #FFFFFF; }
+.tq-art-mark { flex: none; color: var(--primary); font-weight: 800; }
+.tq-art-why { display: flex; flex-direction: column; gap: 7px; margin-top: 4px; padding: 12px; border-inline-start: 4px solid var(--secondary); border-radius: 8px; background: var(--secondary-light); }
+.tq-art-why .tq-art-bar { flex: none; background: #E9DEC4; }
+.tq-art-why .tq-art-bar + .tq-art-bar { width: 70%; }
+@media (max-width: 760px) {
+  .tq-teaser { padding-top: 40px; }
+  .tq-card { grid-template-columns: minmax(0, 1fr); gap: 28px; padding: 24px 18px; border-radius: var(--radius-lg); }
+  .tq-art-card { max-width: 280px; }
+}
+/* On phones the card stays short: the drawing is left out. */
+@media (max-width: 560px) {
+  .tq-art { display: none; }
+}
