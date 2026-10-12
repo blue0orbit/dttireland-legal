@@ -11,7 +11,7 @@
 
   var KEY = 'dtt_analytics_consent';
   var MAX_AGE_MS = 365 * 24 * 60 * 60 * 1000;
-  var MEASUREMENT_ID = 'G-3HWHMZQ4HQ';
+  var MEASUREMENT_ID = 'G-3HWHZMQ4HQ';
   var FIREBASE = 'https://www.gstatic.com/firebasejs/12.11.0/';
   var CONFIG = {
     apiKey: 'AIzaSyDhFNrCKwU0vcO5RgtLHlM78j1C1dZXyps',
