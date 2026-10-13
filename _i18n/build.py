@@ -5,6 +5,9 @@
     python _i18n/build.py applinks       # translated pages: links to the web app carry ?lang=<code>,
                                          # and the Google Play badge is the one in their language
 
+The translated pages are PAGES: the home, features, motorcycle, FAQ and download pages, and the guides listed
+there (blog/<guide> becomes <lang>/blog/<guide>; the other guides and the guide index stay English-only).
+
 The English page stays the source. `prepare` writes, for each language, a skeleton of each translated
 page into _i18n/skeleton/<lang>/ (paths, canonical, hreflang, lang/dir and structured data already
 localised, words still English) and copies it to <lang>/<page> only when that file does not exist yet,
@@ -19,12 +22,18 @@ Folders starting with "_" are not published by GitHub Pages (Jekyll), so this to
 """
 import json
 import os
+import posixpath
 import re
 import sys
 
 SITE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = "https://dttireland.com/"
-PAGES = ["index.html", "features.html", "motorcycle.html", "faq.html", "download.html"]
+# Translated pages. A guide in blog/ is translated to <lang>/blog/<page>; its links to other translated
+# pages go to that language's version, everything else to the English page (relocate).
+PAGES = ["index.html", "features.html", "motorcycle.html", "faq.html", "download.html",
+         "blog/edt-essential-driver-training-ireland.html"]
+# <lastmod> of a page's language URLs in the sitemap (the date the translations were published).
+LASTMOD = {"blog/edt-essential-driver-training-ireland.html": "2026-10-13"}
 # code: (html lang, hreflang, native name, right-to-left)
 LANGS = {
     "ga": ("ga", "ga", "Gaeilge", False),
@@ -108,12 +117,20 @@ def with_i18n(html, page, lang):
 ATTR_URL = re.compile(r'\b(href|src|poster)="([^"]*)"')
 
 
-def relocate(value):
-    """A relative link from a page moved one folder down: translated pages stay beside it."""
+def relocate(value, page="index.html", lang=None):
+    """A relative link from a page moved one folder down: translated pages stay beside it.
+    For a page in a subfolder (blog/), the link is resolved from the English page's folder and pointed
+    from <lang>/<folder>/ at the language version of a translated page, else at the English page."""
     if not value or value.startswith(("http:", "https:", "mailto:", "tel:", "#", "/", "data:", "javascript:")):
         return value
     path = value.split("#")[0].split("?")[0]
-    return value if path in PAGES else "../" + value
+    folder = posixpath.dirname(page)
+    if not folder:
+        return value if path in PAGES else "../" + value
+    target = posixpath.normpath(posixpath.join(folder, path))
+    dest = f"{lang}/{target}" if target in PAGES else target
+    moved = posixpath.relpath(dest, f"{lang}/{folder}") + ("/" if path.endswith("/") else "")
+    return moved + value[len(path):]
 
 
 def localise_ld(block, page, lang):
@@ -144,6 +161,13 @@ def localise_ld(block, page, lang):
                 if isinstance(item, dict) and isinstance(item.get("item"), str):
                     item["item"] = local(item["item"])
             kept.append(node)
+        elif kind == "BlogPosting":
+            # A translated guide is its own article in its language.
+            if isinstance(node.get("mainEntityOfPage"), str):
+                node["mainEntityOfPage"] = local(node["mainEntityOfPage"])
+            if "inLanguage" in node:
+                node["inLanguage"] = LANGS[lang][1]
+            kept.append(node)
         # Site-wide entities (the app, the organisation, the website) are described once, on the
         # English pages; a translated page refers to them by @id instead of repeating them.
     if not kept:
@@ -155,9 +179,10 @@ def localise_ld(block, page, lang):
 def localise(html, page, lang):
     html_lang, _, _, rtl = LANGS[lang]
     html = re.sub(r'<html lang="en"', f'<html lang="{html_lang}"' + (' dir="rtl"' if rtl else ""), html, count=1)
-    html = ATTR_URL.sub(lambda m: f'{m.group(1)}="{relocate(m.group(2))}"', html)
+    html = ATTR_URL.sub(lambda m: f'{m.group(1)}="{relocate(m.group(2), page, lang)}"', html)
     html = re.sub(r'\bsrcset="([^"]*)"', lambda m: 'srcset="' + ", ".join(
-        " ".join([relocate(part.split()[0])] + part.split()[1:]) for part in m.group(1).split(",")) + '"', html)
+        " ".join([relocate(part.split()[0], page, lang)] + part.split()[1:]) for part in m.group(1).split(",")) + '"',
+        html)
     html = re.sub(r'<link rel="canonical" href="[^"]*">', f'<link rel="canonical" href="{url(page, lang)}">', html)
     html = re.sub(r'<meta property="og:url" content="[^"]*">', f'<meta property="og:url" content="{url(page, lang)}">', html)
 
@@ -182,8 +207,9 @@ def prepare():
         for page in PAGES:
             source = open(os.path.join(SITE, page), encoding="utf8").read()
             skeleton = localise(source, page, lang)
-            os.makedirs(os.path.join(SITE, "_i18n", "skeleton", lang), exist_ok=True)
-            open(os.path.join(SITE, "_i18n", "skeleton", lang, page), "w", encoding="utf8", newline="").write(skeleton)
+            skeleton_path = os.path.join(SITE, "_i18n", "skeleton", lang, page)
+            os.makedirs(os.path.dirname(skeleton_path), exist_ok=True)
+            open(skeleton_path, "w", encoding="utf8", newline="").write(skeleton)
             target = os.path.join(SITE, lang, page)
             if not os.path.exists(target):
                 os.makedirs(os.path.dirname(target), exist_ok=True)
@@ -222,7 +248,7 @@ def sitemap():
         alternates = [("en", url(page))] + [(v[1], url(page, k)) for k, v in LANGS.items()] + [("x-default", url(page))]
         links = "".join(f'\n    <xhtml:link rel="alternate" hreflang="{h}" href="{u}"/>' for h, u in alternates)
         for lang in LANGS:
-            entries.append(f"\n  <url>\n    <loc>{url(page, lang)}</loc>\n    <lastmod>2026-10-01</lastmod>{links}\n  </url>")
+            entries.append(f"\n  <url>\n    <loc>{url(page, lang)}</loc>\n    <lastmod>{LASTMOD.get(page, '2026-10-01')}</lastmod>{links}\n  </url>")
     xml = xml.replace("</urlset>", "  " + START + "".join(entries) + "\n  " + END + "\n</urlset>")
     open(path, "w", encoding="utf8", newline="").write(xml)
     print("sitemap: added", len(entries), "language URLs")

@@ -48,3 +48,8 @@
 @media(max-width:760px){.site-header-inner{gap:8px}.site-download{display:none}.site-menu-get{display:block}.site-study{flex:0 1 auto;min-width:0;white-space:normal;line-height:1.15;font-size:12px;padding:10px 12px}}
 @media(max-width:400px){.site-menu-toggle>span:first-child{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}.site-menu-toggle{padding:7px 9px}}
 @media(max-width:360px){.site-brand{font-size:16px}.site-study{padding:9px 8px}}
+/* Right-to-left guides (Arabic, Urdu; first: the EDT guide): mirror the sides the article styles fix. */
+[dir=rtl] .editorial-callout{border-left:0;border-right:3px solid #75995c;border-radius:12px 0 0 12px}
+[dir=rtl] .article-body caption,[dir=rtl] .article-body th{text-align:right}
+[dir=rtl] .article-body li{padding-left:0;padding-right:5px}
+[dir=rtl] .article-faq summary{padding-right:0;padding-left:15px}
