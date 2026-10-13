@@ -27,3 +27,7 @@ dttireland.com is **GitHub Pages behind Cloudflare**:
 - `robots.txt` follows the owner's choice of 10 October 2026: search engines, AI assistants, AI search and Google's ad
   crawlers are welcome; AI-training crawlers are refused (`Content-Signal: search=yes, ai-input=yes, ai-train=no`), and
   Cloudflare blocks the same training crawlers at the edge. Keep it that way when you edit it.
+- `ads.txt` (Google AdSense, the website) and `app-ads.txt` (AdMob and Unity, the Android app) must stay intact:
+  `python _tools/check_ads_txt.py` prints OK. After a push, `python _tools/check_ads_txt.py --live` also checks what
+  dttireland.com serves. `ads.txt` holds only the AdSense line. It carries no ad code: ads appear only on pages that load
+  Google's ad script, and no page does yet.
