@@ -31,9 +31,10 @@ BASE = "https://dttireland.com/"
 # Translated pages. A guide in blog/ is translated to <lang>/blog/<page>; its links to other translated
 # pages go to that language's version, everything else to the English page (relocate).
 PAGES = ["index.html", "features.html", "motorcycle.html", "faq.html", "download.html",
-         "blog/edt-essential-driver-training-ireland.html"]
+         "blog/edt-essential-driver-training-ireland.html", "blog/first-learner-permit-ireland-after-theory-test.html"]
 # <lastmod> of a page's language URLs in the sitemap (the date the translations were published).
-LASTMOD = {"blog/edt-essential-driver-training-ireland.html": "2026-10-13"}
+LASTMOD = {"blog/edt-essential-driver-training-ireland.html": "2026-10-13",
+           "blog/first-learner-permit-ireland-after-theory-test.html": "2026-10-14"}
 # code: (html lang, hreflang, native name, right-to-left)
 LANGS = {
     "ga": ("ga", "ga", "Gaeilge", False),
