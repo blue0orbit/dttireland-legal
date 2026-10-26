@@ -196,7 +196,8 @@ def localise(html, page, lang):
 
 def prepare():
     english = [f for f in os.listdir(SITE) if f.endswith(".html")]
-    english += ["blog/" + f for f in os.listdir(os.path.join(SITE, "blog")) if f.endswith(".html")]
+    # blog/index.html only forwards dttireland.com/blog/ to the guide index (blog.html): not a page to localise.
+    english += ["blog/" + f for f in os.listdir(os.path.join(SITE, "blog")) if f.endswith(".html") and f != "index.html"]
     for page in english:
         path = os.path.join(SITE, page)
         source = open(path, encoding="utf8").read()
