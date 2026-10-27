@@ -121,7 +121,10 @@ ATTR_URL = re.compile(r'\b(href|src|poster)="([^"]*)"')
 def relocate(value, page="index.html", lang=None):
     """A relative link from a page moved one folder down: translated pages stay beside it.
     For a page in a subfolder (blog/), the link is resolved from the English page's folder and pointed
-    from <lang>/<folder>/ at the language version of a translated page, else at the English page."""
+    from <lang>/<folder>/ at the language version of a translated page, else at the English page.
+    The site's home link "/" (logo, breadcrumb "Home") becomes that language's home, "/<lang>/"."""
+    if value == "/" and lang:
+        return href("index.html", lang)
     if not value or value.startswith(("http:", "https:", "mailto:", "tel:", "#", "/", "data:", "javascript:")):
         return value
     path = value.split("#")[0].split("?")[0]
